@@ -3,33 +3,26 @@
 # 20/3/2018
 
 
-from splinter.driver.webdriver.chrome import Options, Chrome
-from splinter.browser import Browser
-from contextlib import closing
 import requests, json, time, re, os, sys
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import urllib.request
 import pymongo
 
+import pandas as pd
+import numpy as np
+
 from downloader import Downloader
 from mongosql import tosql
 
 
+  
 
 class Parser(object):
 
-	def __init__(self, width = 500, height = 300):
-		"""
-		解析URL
+	def __init__(self):
 
-		抖音 challenge 视频下载，
-		内容相似的， 主题一样的视频
-		"""
-		# 无头浏览器
-		chrome_options = Options()
-		chrome_options.add_argument('user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"')
-		self.driver = Browser(driver_name='chrome', executable_path= '/usr/local/bin/chromedriver', options=chrome_options, headless=True)
+		pass
 	
 	def get_video_urls(self, ch_id,cnum):
 		"""
@@ -74,6 +67,21 @@ class Parser(object):
 
 
 
+def getChaId():
+
+	data = pd.read_csv('cha_id.csv')
+
+	cha_id = data['cha_id']
+	cnum = data['cnum']
+
+	# i = 0
+	# while i < len(cha_id):
+	# 	print(str(cha_id[i])  + "   " + str (cnum[i])	 )
+	# 	i +=1
+
+	return cha_id, cnum
+
+
 def main():
 
 	"""
@@ -84,36 +92,49 @@ def main():
 	parser = Parser()
 	#1553304054213633
 
-	ch_id =  '1553304054213633'
+	# ch_ids, cnums =  getChaId()
 
+	ch_ids = [1553304054213633]
+	cnums = [50]
 
-	video_names, video_urls,cha_name,short_ids,cover_image_urls = parser.get_video_urls(ch_id,'15')
 
 	i = 0
+	while i < len(ch_ids):
+		ch_id = ch_ids[i]
+		cnum = cnums[i]
 
 
-	while i < len(video_names):
-		print("url:  " + video_urls[i])
-		print("Video Name:  " + video_names[i])
-		print("Type:  " + cha_name[i])
+		# get url from ajax 
+		video_names, video_urls,cha_name,short_ids,cover_image_urls = parser.get_video_urls(str(ch_id), str(cnum))
 
-		print('\n\n' + '*' * 50)
-		i+=1
+		#save into sql
 
+		sql = tosql()
+		sql.insertVideo(short_ids,video_names,video_urls,cover_image_urls,cha_name)
 
-	#save into sql
+		#downloads
 
-	sql = tosql()
-	sql.insertVideo(short_ids,video_names,video_urls,cover_image_urls,cha_name)
+		# down = Downloader()
 
-	#downloads
+		# down.getUrl(video_urls,video_names, ch_id)
 
-	# down = Downloader()
-
-	# down.getUrl(video_urls,video_names, ch_id)
-
+		i += 1	
 
 	
+	# i = 0
+	# while i < len(video_names):
+	# 	print("url:  " + video_urls[i])
+	# 	print("Video Name:  " + video_names[i])
+	# 	print("Type:  " + cha_name[i])
+
+	# 	print('\n\n' + '*' * 50)
+	# 	i+=1
+
+
+
+
+
 
 if __name__ == '__main__':
 	main()
+	# test()

@@ -1,7 +1,7 @@
 # create by Jimze
 # 22/3/2018
 
-import pymongo,os
+import pymongo,os,sys,time
 
 
 class tosql():
@@ -66,11 +66,11 @@ class tosql():
 			try:
 				db.videos.insert(video, continue_on_error=True)
 
-				print( "Successfully insert  " + video_names[i] )
+				# print( "Successfully insert  " + video_names[i] )
 
 			except pymongo.errors.DuplicateKeyError:
-				print( video_names[i] + "  already exist video. ")
+				print("\n" + video_names[i] + "  already exist video. ")
 
-			i+=1	
+			i+=1
 
 		print('Finished insert video')

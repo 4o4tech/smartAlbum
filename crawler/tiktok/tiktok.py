@@ -12,7 +12,9 @@ from urllib.request import urlopen
 import urllib.request
 import pymongo
 
-import downloader
+from downloader import Downloader
+from mongosql import tosql
+
 
 
 class Parser(object):
@@ -44,7 +46,9 @@ class Parser(object):
 		video_urls = []
 		cha_name = []
 		# URIs = []
-		# nickname = []
+		short_ids = []
+		cover_image_urls = []
+
 
 		user_url = 'https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=%s&count=%s' % (ch_id, cnum)
 		req = requests.get(url = user_url, verify = False)
@@ -55,11 +59,17 @@ class Parser(object):
 			#use uri as videos uniqe name 
 			#change by jizme
 			URI = each['video']['play_addr']['uri']
-			video_names.append(URI + '.mp4')
+			author = each['author']
+
+			video_names.append(URI)
 			video_urls.append(each['video']['play_addr']['url_list'][0])
 			cha_name.append(each['cha_list'][0]['cha_name'])
+			cover_image_urls.append(each['video']['cover']['url_list'][0])
+			short_ids.append(author['short_id'])
 
-		return video_names, video_urls,cha_name
+			
+
+		return video_names, video_urls,cha_name,short_ids,cover_image_urls
 
 
 
@@ -72,15 +82,14 @@ def main():
 	"""
 
 	parser = Parser()
+	#1553304054213633
 
-	ch_id =  '1554129378843650'
+	ch_id =  '1553304054213633'
 
 
-
-	video_names, video_urls,cha_name = parser.get_video_urls(ch_id,'10')
+	video_names, video_urls,cha_name,short_ids,cover_image_urls = parser.get_video_urls(ch_id,'15')
 
 	i = 0
-
 
 
 	while i < len(video_names):
@@ -91,6 +100,11 @@ def main():
 		print('\n\n' + '*' * 50)
 		i+=1
 
+
+	#save into sql
+
+	sql = tosql()
+	sql.insertVideo(short_ids,video_names,video_urls,cover_image_urls,cha_name)
 
 	#downloads
 

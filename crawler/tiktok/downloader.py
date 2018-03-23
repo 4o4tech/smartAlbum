@@ -17,12 +17,15 @@ class Downloader(object):
 		path = '/Users/jimzezhang/demo/video/' + ch_id
 
 
+		if not os.path.exists(path):
+			os.mkdir(path)
+
 		while i < count:
 
 			url = video_urls[i]
 			name = video_names[i]
 
-			file_path = os.path.join(path, name)
+			file_path = os.path.join(path, name + '.mp4')
 
 			if not os.path.isfile(file_path):
 

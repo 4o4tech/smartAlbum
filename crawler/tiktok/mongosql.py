@@ -1,26 +1,13 @@
 # create by Jimze
 # 22/3/2018
 
-import pymongo
+import pymongo,os
 
 
 class tosql():
 
 	def __init__(self):
 		pass
-
-	def connectMongo(self):
- 
-		db_host,username,passwd = self.db_pwd
-
-		conn = MongoClient(db_host)
-
-		db = conn.get_database("mydb")
-		db.authenticate(username, passwd)
-
-		print(db.user)
-
-
 
 
 
@@ -33,17 +20,57 @@ class tosql():
 		db_host = db[0].strip()	
 		user = db[1].strip()
 		passwd = db[2].strip()
-		return (db_host,user,passwd)
+		return db_host,user,passwd
 
 
-	def run():
-		self.connectMongo()
+	def connectMongo(self):
+ 
+		db_host,username,passwd = self.db_pwd()
 
 
-def main():
-	sql = tosql()
+		# print (db_host,username,passwd)
 
-	sql.run()
+		conn = pymongo.MongoClient(db_host, username=username, password=passwd,authSource='admin')
 
-if __name__ == '__main__':
-	main()
+
+		# db = conn.get_database("mydb")
+		# db.authenticate(username, passwd)
+
+		db = conn.mydb
+
+
+		#start insert data into sql
+		print("Insert data into sql ")
+
+		return db
+		# account = db.get_collection("user")
+
+		# print(account.find_one())
+
+	def insertVideo(self, short_ids,video_names,video_urls,cover_image_urls,cha_name):
+
+		i = 0 
+		count = len(short_ids)
+
+		db = self.connectMongo()
+
+		while i < count:
+			video = {
+				'_id':video_names[i],
+				'short_id':short_ids[i],
+				'video_url':video_urls[i],
+				'cover_image_url':cover_image_urls[i],
+				'cha_name':cha_name[i]
+			}
+
+			try:
+				db.videos.insert(video, continue_on_error=True)
+
+				print( "Successfully insert  " + video_names[i] )
+
+			except pymongo.errors.DuplicateKeyError:
+				print( video_names[i] + "  already exist video. ")
+
+			i+=1	
+
+		print('Finished insert video')

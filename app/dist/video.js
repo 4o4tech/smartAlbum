@@ -62,19 +62,26 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 12);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 4:
+/***/ 12:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
+/* styles */
+__vue_styles__.push(__webpack_require__(13)
+)
+
+/* script */
+__vue_exports__ = __webpack_require__(14)
+
 /* template */
-var __vue_template__ = __webpack_require__(5)
+var __vue_template__ = __webpack_require__(15)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -86,9 +93,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/jimzezhang/workspace/smartAlbum/app/src/components/HelloWorld.vue"
+__vue_options__.__file = "/Users/jimzezhang/workspace/smartAlbum/app/src/video.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+__vue_options__._scopeId = "data-v-37a73ef2"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -106,13 +114,102 @@ new Vue(module.exports)
 
 /***/ }),
 
-/***/ 5:
+/***/ 13:
+/***/ (function(module, exports) {
+
+module.exports = {
+  "video": {
+    "width": "630",
+    "height": "350",
+    "marginTop": "60",
+    "marginLeft": "60"
+  },
+  "info": {
+    "marginTop": "40",
+    "fontSize": "40",
+    "textAlign": "center"
+  }
+}
+
+/***/ }),
+
+/***/ 14:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+exports.default = {
+  data: function data() {
+    return {
+      state: '----'
+    };
+  },
+
+  methods: {
+    onstart: function onstart(event) {
+      this.state = 'onstart';
+    },
+    onpause: function onpause(event) {
+      this.state = 'onpause';
+    },
+    onfinish: function onfinish(event) {
+      this.state = 'onfinish';
+    },
+    onfail: function onfail(event) {
+      this.state = 'onfinish';
+    }
+  }
+};
+
+/***/ }),
+
+/***/ 15:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('text', {
-    staticClass: ["message"]
-  }, [_vm._v("Now, let's use Vue.js to build your Weex app.")])
+  return _c('div', [_c('video', {
+    staticClass: ["video"],
+    attrs: {
+      "src": _vm.src,
+      "autoplay": "",
+      "controls": ""
+    },
+    on: {
+      "start": _vm.onstart,
+      "pause": _vm.onpause,
+      "finish": _vm.onfinish,
+      "fail": _vm.onfail
+    }
+  }), _c('text', {
+    staticClass: ["info"]
+  }, [_vm._v("state: " + _vm._s(_vm.state))])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 

@@ -1,10 +1,10 @@
 <template>
   <div>
-	  <div>
 		<videolist></videolist>
-
+	  <div>
 		<div class="tab-panels" :style="{ left: activeTab * -750 + 'px'}">
 		  <div class="panel" v-for="(panel, pi) in panels" :key="pi">
+		  	<text>{{pi}}</text>
 			<text class="content">{{panel.content}}</text>
 		  </div>
 		</div>
@@ -57,9 +57,9 @@
 <style scoped>
   .tabbar {
 	flex-direction: row;
-	background-color: #FF4563;
+	background-color: #457cff;
 	position:fixed;
-	bottom:50px;
+	bottom:0px;
   }
   .tab {
 	height: 120px;
@@ -71,7 +71,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: rgb(218, 59, 85);
+	background-color: #2d54af;
 	transition: left 0.2s ease-in-out;
   }
   .icon {

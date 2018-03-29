@@ -1,6 +1,6 @@
 <template>
   <div>
-    <video class="video" v-bind:src="src" autoplay controls
+    <video class="video" src="http://flv2.bn.netease.com/videolib3/1611/01/XGqSL5981/SD/XGqSL5981-mobile.mp4" autoplay controls
       @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>
     <text class="info">state: {{state}}</text>
   </div>

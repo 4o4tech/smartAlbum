@@ -5,8 +5,7 @@
 
 import requests, json, time, re, os, sys
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
-import urllib.request
+
 import pymongo
 
 import pandas as pd
@@ -44,8 +43,9 @@ class Parser(object):
 
 
 		user_url = 'https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=%s&count=%s' % (ch_id, cnum)
-		req = requests.get(url = user_url, verify = False)
+		req = requests.get(url = user_url, verify = True)
 		html = json.loads(req.text)
+		print (user_url)
 		i = 1
 		for each in html['aweme_list']:
 
@@ -60,9 +60,7 @@ class Parser(object):
 			cover_image_urls.append(each['video']['cover']['url_list'][0])
 			short_ids.append(author['short_id'])
 
-			
-
-		return video_names, video_urls,cha_name,short_ids,cover_image_urls
+		return video_names, video_urls, cha_name, short_ids, cover_image_urls
 
 
 
@@ -92,10 +90,10 @@ def main():
 	parser = Parser()
 	#1553304054213633
 
-	# ch_ids, cnums =  getChaId()
+	ch_ids, cnums = getChaId()
 
-	ch_ids = [1553304054213633]
-	cnums = [50]
+	# ch_ids = [1553304054213633]
+	# cnums = [50]
 
 
 	i = 0
@@ -131,7 +129,17 @@ def main():
 	# 	i+=1
 
 
+def test():
+	ch_ids, cnums =  getChaId()
 
+	i = 0
+	while i < len(ch_ids):
+		ch_id = str(ch_ids[i])
+		cnum = str (cnums[i])
+
+		print(ch_id + "   " + cnum)
+
+		i += 1
 
 
 

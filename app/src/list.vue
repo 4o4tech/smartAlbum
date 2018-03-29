@@ -1,6 +1,6 @@
 <template>
 
-	<div>
+
 
 		<list>
 			<cell class="cell">
@@ -13,8 +13,10 @@
 		 -->
 		 		  
 
-
-				<video class="video" :src="char.video.play_addr.url_list[0]"  autoplay controls
+<!-- 				<video class="video" src="http://flv2.bn.netease.com/videolib3/1611/01/XGqSL5981/SD/XGqSL5981-mobile.mp4"  autoplay controls
+      @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>
+ -->
+      <video class="video" :src="char.video.play_addr.url_list[0]"  autoplay controls
       @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>
     <text class="info">state: {{state}}</text>
 
@@ -27,8 +29,7 @@
 	    </list>
 		
 
-	</div>
-  
+	  
 </template>
 
 <script>
@@ -106,10 +107,6 @@ import Vue from 'vue';
 	color: #41B883;
   }
 
-  .testImage{
-    width:600px;
-    height:450px;
-  }
   .video{
   	width: 630px;
     height: 350px;

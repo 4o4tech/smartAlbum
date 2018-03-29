@@ -7,7 +7,7 @@ db=client.business
 names = ['Kitchen','Animal','State', 'Tastey', 'Big','City','Fish', 'Pizza','Goat', 'Salty','Sandwich','Lazy', 'Fun']
 company_type = ['LLC','Inc','Company','Corporation']
 company_cuisine = ['Pizza', 'Bar Food', 'Fast Food', 'Italian', 'Mexican', 'American', 'Sushi Bar', 'Vegetarian']
-for x in xrange(1, 501):
+for x in range(1, 501):
     business = {
         'name' : names[randint(0, (len(names)-1))] + ' ' + names[randint(0, (len(names)-1))]  + ' ' + company_type[randint(0, (len(company_type)-1))],
         'rating' : randint(1, 5),

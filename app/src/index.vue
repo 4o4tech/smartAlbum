@@ -19,7 +19,7 @@
 
 	
 
-
+	<videolist></videolist>
 
 	<!-- <router-view class="template"></router-view> -->
 
@@ -75,8 +75,9 @@
 
 			console.log(e)
 			this._data.activeTab = e
-
       }
+
+
 	}
 }
 </script>

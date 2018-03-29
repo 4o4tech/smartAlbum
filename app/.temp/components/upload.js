@@ -7,5 +7,5 @@ const App = require('@/index.vue');
 new Vue(Vue.util.extend({el: '#root', router}, App));
 router.push('/');
 
-const App = require('../src/components/upload.vue');
+const App = require('../../src/components/upload.vue');
 new Vue(Vue.util.extend({el: '#root'}, App));

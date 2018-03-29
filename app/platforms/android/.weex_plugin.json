@@ -1,0 +1,9 @@
+[
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-camera",
+    "version": "1.0.2",
+    "dependency": "com.instapp.nat:weex-plugin-camera:1.0.2"
+  }
+]

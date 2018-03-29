@@ -24,9 +24,9 @@
 
 
 				  <text class="text">{{char.video.play_addr.url_list[0]}}</text>
-			  </div>
+			  </div>w
 			</cell>
-	    </list>
+	    </list>w
 		
 
 	  

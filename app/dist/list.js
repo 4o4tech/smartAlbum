@@ -62,26 +62,29 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 17);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 17:
+/******/ ([
+/* 0 */,
+/* 1 */,
+/* 2 */,
+/* 3 */,
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(18)
+__vue_styles__.push(__webpack_require__(5)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(19)
+__vue_exports__ = __webpack_require__(6)
 
 /* template */
-var __vue_template__ = __webpack_require__(20)
+var __vue_template__ = __webpack_require__(8)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -113,8 +116,7 @@ new Vue(module.exports)
 
 
 /***/ }),
-
-/***/ 18:
+/* 5 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -147,8 +149,7 @@ module.exports = {
 }
 
 /***/ }),
-
-/***/ 19:
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -158,7 +159,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _vue = __webpack_require__(4);
+var _vue = __webpack_require__(7);
 
 var _vue2 = _interopRequireDefault(_vue);
 
@@ -249,48 +250,7 @@ exports.default = {
 };
 
 /***/ }),
-
-/***/ 20:
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('list', [_c('cell', {
-    staticClass: ["cell"],
-    appendAsTree: true,
-    attrs: {
-      "append": "tree"
-    }
-  }, _vm._l((_vm.lists), function(char) {
-    return _c('div', {
-      key: char.aweme_id,
-      staticClass: ["panel"]
-    }, [_c('video', {
-      staticClass: ["video"],
-      attrs: {
-        "src": char.video.play_addr.url_list[0],
-        "autoplay": "",
-        "controls": ""
-      },
-      on: {
-        "start": _vm.onstart,
-        "pause": _vm.onpause,
-        "finish": _vm.onfinish,
-        "fail": _vm.onfail
-      }
-    }), _c('text', {
-      staticClass: ["info"]
-    }, [_vm._v("state: " + _vm._s(_vm.state))]), _c('text', {
-      staticClass: ["text"]
-    }, [_vm._v(_vm._s(char.aweme_id))]), _c('text', {
-      staticClass: ["text"]
-    }, [_vm._v(_vm._s(char.video.play_addr.url_list[0]))])])
-  }))])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ }),
-
-/***/ 4:
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7580,6 +7540,11 @@ if (inBrowser) {
 
 exports.default = Vue;
 
-/***/ })
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
 
-/******/ });
+module.exports={render:function(){},staticRenderFns:[]}
+
+/***/ })
+/******/ ]);

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/release/menu/ucrop_menu_activity.xml",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v2.1.7/res/menu/ucrop_menu_activity.xml"
+    },
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/release/menu/main_scan.xml",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/src/main/res/menu/main_scan.xml"
+    }
+]

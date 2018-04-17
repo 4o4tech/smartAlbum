@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "npm run serve",
-    "build": "webpack --env.NODE_ENV=common",
+    "build": "webpack --env.NODE_ENV=common --watch",
     "build:prod": "webpack --env.NODE_ENV=production",
     "build:prod:web": "webpack --env.NODE_ENV=release",
     "build:plugin": "webpack --env.NODE_ENV=plugin",
@@ -30,9 +30,12 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "image-picker": "^0.3.1",
+    "natjs": "^0.1.5",
     "phantom-limb": "0.0.1",
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
+    "weex-ui": "^0.6.1",
     "weex-vue-render": "^1.0.17"
   },
   "devDependencies": {

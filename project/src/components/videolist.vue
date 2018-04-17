@@ -4,6 +4,7 @@
         <text class="text">{{list}}</text>
         <div class="panel">
           <!--<video class="video" :src="data['video'].play_addr.url_list[0]"   controls @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>-->
+          
 
           <!--<video class="video" src="http://v11-dy.ixigua.com/56a39fc807ae7892527aa706a7be9775/5ab7cc46/video/m/220ca7e7234729b4cd292216fc74ffe4cf31152660d0000577c419dded2/"  autoplay="true" controls-->
           <!--@start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>-->
@@ -66,7 +67,7 @@
         url:url
       }, callback)
     },
-       onstart (event) {
+      onstart (event) {
         this.state = 'onstart'
       },
       onpause (event) {
@@ -77,7 +78,18 @@
       },
       onfail (event) {
         this.state = 'onfinish'
+      },
+
+      // 模拟ajax
+      loadUrl: function(){
+        var _this = this;
+        setTimeout(function(){
+           _this.url = 'http://img-cdn.wanyouxi.com/video/20170601_mdzz_recommend_video.mp4';
+        },500);
       }
+
+
+
     },
     created(){
     let url = 'https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=5';
@@ -109,7 +121,7 @@
     border-style: solid;
     border-color: rgb(162, 217, 192);
     background-color: rgba(162, 217, 192, 0.2);
-  }
+  }  
   .text {
     font-size: 24px;
     text-align: center;

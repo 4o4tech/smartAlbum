@@ -1,0 +1,710 @@
+[
+    {
+        "outputFile": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 39,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 55,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 55,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 86,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 86,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endColumn": 93,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 238,
+                        "endColumn": 93,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endColumn": 78,
+                    "endOffset": 406
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 78,
+                        "endOffset": 406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 411,
+                    "endColumn": 58,
+                    "endOffset": 465
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 411,
+                        "endColumn": 58,
+                        "endOffset": 465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 470,
+                    "endColumn": 49,
+                    "endOffset": 515
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 49,
+                        "endOffset": 515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 520,
+                    "endColumn": 55,
+                    "endOffset": 571
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 520,
+                        "endColumn": 55,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 576,
+                    "endColumn": 43,
+                    "endOffset": 615
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 576,
+                        "endColumn": 43,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 620,
+                    "endColumn": 63,
+                    "endOffset": 679
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 620,
+                        "endColumn": 63,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 684,
+                    "endColumn": 90,
+                    "endOffset": 770
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 684,
+                        "endColumn": 90,
+                        "endOffset": 770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 775,
+                    "endColumn": 69,
+                    "endOffset": 840
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 775,
+                        "endColumn": 69,
+                        "endOffset": 840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 845,
+                    "endColumn": 68,
+                    "endOffset": 909
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 845,
+                        "endColumn": 68,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 914,
+                    "endColumn": 66,
+                    "endOffset": 976
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endColumn": 66,
+                        "endOffset": 976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 981,
+                    "endColumn": 79,
+                    "endOffset": 1056
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 981,
+                        "endColumn": 79,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1061,
+                    "endColumn": 51,
+                    "endOffset": 1108
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 51,
+                        "endOffset": 1108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1113,
+                    "endColumn": 95,
+                    "endOffset": 1204
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1113,
+                        "endColumn": 95,
+                        "endOffset": 1204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1209,
+                    "endColumn": 82,
+                    "endOffset": 1287
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1209,
+                        "endColumn": 82,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1292,
+                    "endColumn": 82,
+                    "endOffset": 1370
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1292,
+                        "endColumn": 82,
+                        "endOffset": 1370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1375,
+                    "endColumn": 53,
+                    "endOffset": 1424
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1375,
+                        "endColumn": 53,
+                        "endOffset": 1424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1429,
+                    "endColumn": 57,
+                    "endOffset": 1482
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1429,
+                        "endColumn": 57,
+                        "endOffset": 1482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1487,
+                    "endColumn": 51,
+                    "endOffset": 1534
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 51,
+                        "endOffset": 1534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1539,
+                    "endColumn": 58,
+                    "endOffset": 1593
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1539,
+                        "endColumn": 58,
+                        "endOffset": 1593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1598,
+                    "endColumn": 63,
+                    "endOffset": 1657
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1598,
+                        "endColumn": 63,
+                        "endOffset": 1657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1662,
+                    "endColumn": 51,
+                    "endOffset": 1709
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1662,
+                        "endColumn": 51,
+                        "endOffset": 1709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1714,
+                    "endColumn": 49,
+                    "endOffset": 1759
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1714,
+                        "endColumn": 49,
+                        "endOffset": 1759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1764,
+                    "endColumn": 94,
+                    "endOffset": 1854
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1764,
+                        "endColumn": 94,
+                        "endOffset": 1854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1859,
+                    "endColumn": 51,
+                    "endOffset": 1906
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1859,
+                        "endColumn": 51,
+                        "endOffset": 1906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1911,
+                    "endColumn": 61,
+                    "endOffset": 1968
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1911,
+                        "endColumn": 61,
+                        "endOffset": 1968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1973,
+                    "endColumn": 62,
+                    "endOffset": 2031
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1973,
+                        "endColumn": 62,
+                        "endOffset": 2031
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2036,
+                    "endColumn": 66,
+                    "endOffset": 2098
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2036,
+                        "endColumn": 66,
+                        "endOffset": 2098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2103,
+                    "endColumn": 80,
+                    "endOffset": 2179
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2103,
+                        "endColumn": 80,
+                        "endOffset": 2179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2184,
+                    "endColumn": 51,
+                    "endOffset": 2231
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2184,
+                        "endColumn": 51,
+                        "endOffset": 2231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2236,
+                    "endColumn": 53,
+                    "endOffset": 2285
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2236,
+                        "endColumn": 53,
+                        "endOffset": 2285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2290,
+                    "endColumn": 45,
+                    "endOffset": 2331
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2290,
+                        "endColumn": 45,
+                        "endOffset": 2331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2336,
+                    "endColumn": 65,
+                    "endOffset": 2397
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2336,
+                        "endColumn": 65,
+                        "endOffset": 2397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2402,
+                    "endColumn": 56,
+                    "endOffset": 2454
+                },
+                "from": {
+                    "file": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2402,
+                        "endColumn": 56,
+                        "endOffset": 2454
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/debug/xml/app_config.xml",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/src/main/res/xml/app_config.xml"
+    },
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/debug/xml/file_paths.xml",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/res/xml/file_paths.xml"
+    }
+]

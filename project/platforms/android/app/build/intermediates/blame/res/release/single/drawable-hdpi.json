@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_refresh.png",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/src/main/res/drawable-hdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_scan.png",
+        "source": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/src/main/res/drawable-hdpi/ic_action_scan.png"
+    }
+]

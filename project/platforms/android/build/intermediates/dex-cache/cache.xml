@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0/d88059003509074dd59fa226c822724bcf5ec0ca/disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/disklrucache-4.0.0_772646a3246619988bb893f9516e28bceb37a860.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_304839eb55fec14180a7664e04d20793e022cfc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.4.0_ac99fa1668271ced6d3c8ddd683f95667cbb0071.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.1.0_12258da84a032021f12306d1c077be6b11238455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_1e449fa259443a29b4e0e1ba1597ba2b9feddea4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_7b102cda6910cf3b2caedd3f5bae45df21a9ee70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_93d383dfddcd55784a13911ef64593f845e65e34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_inspector/0.10.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.10.0.5_9fbb1d88e3c431c1fe25fc8c456cdc199c26010c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_bdbfeadffff9b2905ff5535125cfa6926783b323.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weexplugin-loader/1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c85f46e9eed1cccfd0bf5df199dd53a66de98651">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weexplugin-loader-1.3_ada7b96208e7fc84572e8d66cc8732527c2db71d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.taobao.android/weexplugin-annotation/1.3/f9c594cafe95ab01986863300b2f2993b5777b42/weexplugin-annotation-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9c594cafe95ab01986863300b2f2993b5777b42">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/weexplugin-annotation-1.3_46852e389f1b401c55a300bdb9fe682f2ba4f394.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.1.0_12258da84a032021f12306d1c077be6b11238455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_4572f1c16b1ab5aaf46898842389cdc00ee2dd32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_058d1cbdb56f93e9bb65a5065e423fcd17ad2f28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_bf5bb95a97125021eca243534244584017681431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.taobao.android/weexplugin-processor/1.3/90f4c5cdb14a255dd3cc341b563271494e8cd941/weexplugin-processor-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="90f4c5cdb14a255dd3cc341b563271494e8cd941">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/weexplugin-processor-1.3_1626b9c9b7c31d733c4fbe8be31b351f745c219d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_0d872bce994ad9a41d074a09580b9fc78a05f9bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0/f80192e6fd828d41c7da6f3552b0bef5d89cb26e/annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/annotations-4.0.0_2e65a2e213b29464b8bcfc21d4aec5596771c2f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_9164c2ebf367544738d3e30aa1ffd1285db53580.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_eb7496bdb81e86024881d681f09bba37ed098814.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0/dff931af436f0a2815d0109ab2258bbce2d6275d/glide-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/glide-4.0.0_bcb7f61ccb22fad7ce35e3b95b4a9020b05c8bd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_9f96125d6343ec3ce85060ce00bbbf2c949a197d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-26.1.0_81109e4cf7a780d6c23d9549fd382af4d9202ca6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_inspector/0.10.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.10.0.5_9fbb1d88e3c431c1fe25fc8c456cdc199c26010c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_93d383dfddcd55784a13911ef64593f845e65e34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0/47c487cc4e64e6ab127a517669ca9a7b49f8c61d/gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/gifdecoder-4.0.0_9d8673cebbf6d27f4883059d23065d8390c71d2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_bdbfeadffff9b2905ff5535125cfa6926783b323.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/io.github.lizhangqu/coreprogress/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1ebd34b0c2f90b0f1ae576bcfcc8250769b9c4e4">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/io.github.lizhangqu-coreprogress-1.0.2_c42d13548a76beafe1733df8d66b9d6cd566d068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_3a3c068a120c38df45b83459bb2f27853484582f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.taobao.android/weexplugin-annotation/1.3/f9c594cafe95ab01986863300b2f2993b5777b42/weexplugin-annotation-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="f9c594cafe95ab01986863300b2f2993b5777b42">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/weexplugin-annotation-1.3_46852e389f1b401c55a300bdb9fe682f2ba4f394.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_058d1cbdb56f93e9bb65a5065e423fcd17ad2f28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_4572f1c16b1ab5aaf46898842389cdc00ee2dd32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_f9d5516fe420fba14936ac001f5c2928068a917c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_0d872bce994ad9a41d074a09580b9fc78a05f9bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_9164c2ebf367544738d3e30aa1ffd1285db53580.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/transition/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-26.1.0_e21b88ccf02afbe1efbcf332ddb1b09e12d80245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.16.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.16.0_8bd59ae4e7382ed741929652a18fd45b67d0f997.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_9206884955fd985bc2b8570cb07360967cf728ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_183d4a799d33c83eb49905805cdb0a5fe510266b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_b83308f7802a0151032af6be88540a13375d9fcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_bf5bb95a97125021eca243534244584017681431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_9f96125d6343ec3ce85060ce00bbbf2c949a197d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_b83308f7802a0151032af6be88540a13375d9fcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_20dde7d526bf1b02e8971258cd847c236bfd94f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v2.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="edb846d19cb568b2aee84db9e9bb906b67bdca24">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.github.LuckSiege.PictureSelector-ucrop-v2.1.7_47436b1773bd59e1d29ee4131ab967de587d6a6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/org.weex.plugin/imagepicker/0.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="84518030a686c61a0c7740a675812cf58765ad63">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/org.weex.plugin-imagepicker-0.0.3_e605beb95f04eae19e3a281a4bc91bad1574b8e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.1.0_ca78249cc85d401ef64d7e70968dde66336b3bcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.1.0_760d3d46e179cb32e0b4c8d4b0dfab4487b6b47f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_01509190fc13d7393b9831c33eff13d033c999a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/io.reactivex.rxjava2-rxandroid-2.0.1_603f714f0973f15ed9ad781c04fc4c6b856509d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v2.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee873e87bde5381e8643f55a77e1eccf3d2eab72">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.github.LuckSiege.PictureSelector-picture_library-v2.1.7_2f242c3727c24cacbceb132c20eab2de4fe7929f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_01509190fc13d7393b9831c33eff13d033c999a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.1.0_ca78249cc85d401ef64d7e70968dde66336b3bcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.5/4f1ac7ec0215e8f87ac80269baadc82878b87ed8/rxjava-2.0.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4f1ac7ec0215e8f87ac80269baadc82878b87ed8">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/rxjava-2.0.5_d3d2fba7c76a89dda1a603ea4ed0af62248de4b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_f9d5516fe420fba14936ac001f5c2928068a917c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-26.1.0_81109e4cf7a780d6c23d9549fd382af4d9202ca6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_9206884955fd985bc2b8570cb07360967cf728ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.16.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.16.0_8bd59ae4e7382ed741929652a18fd45b67d0f997.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/transition/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-26.1.0_e21b88ccf02afbe1efbcf332ddb1b09e12d80245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_183d4a799d33c83eb49905805cdb0a5fe510266b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_eb7496bdb81e86024881d681f09bba37ed098814.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_7b102cda6910cf3b2caedd3f5bae45df21a9ee70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.4.0_ac99fa1668271ced6d3c8ddd683f95667cbb0071.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.taobao.android/weexplugin-processor/1.3/90f4c5cdb14a255dd3cc341b563271494e8cd941/weexplugin-processor-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="90f4c5cdb14a255dd3cc341b563271494e8cd941">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/weexplugin-processor-1.3_1626b9c9b7c31d733c4fbe8be31b351f745c219d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_20dde7d526bf1b02e8971258cd847c236bfd94f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.1.0_760d3d46e179cb32e0b4c8d4b0dfab4487b6b47f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_3a3c068a120c38df45b83459bb2f27853484582f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weexplugin-loader/1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="c85f46e9eed1cccfd0bf5df199dd53a66de98651">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weexplugin-loader-1.3_ada7b96208e7fc84572e8d66cc8732527c2db71d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimzezhang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e15ca5f11/okhttp-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-3.8.1_cc0db8d25c77f15e225f4ebab374c15496906f0c.jar" />
+    </item>
+
+</items>

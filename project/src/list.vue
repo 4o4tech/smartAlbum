@@ -1,20 +1,37 @@
 <template>
   <div>
-    <list>
-      <cell v-for="news in lists">
-        <div class="panel">
-          <!--<text class="text">{{news.newsTitle}}</text>-->
-          <!--<text class="content">{{news.newsContent}}</text>-->
-          <!--news.video.play_addr.url_list[0]-->
-          <!--<video class="video" :src=""   controls @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>-->
 
-          <image class="video" :src="news.video.dynamic_cover.url_list[0]"></image>
 
+        <div class="panel" v-for="list in lists">
+
+
+         
+           <!-- <image class="video" :src="news.video.dynamic_cover.url_list[0]"></image> -->
+            <video class="video"  :src="list"  autoplay="false"  controls  >
+
+            </video>
+
+            
+            <text class="text">{{list}}</text>
 
         </div>
-      </cell>
 
-    </list>
+
+
+       
+          
+          <!--<text class="content">{{news.newsContent}}</text>-->
+          
+          
+
+          <!-- <image class="video" :src="news.video.dynamic_cover.url_list[0]"></image> -->
+
+
+                      <!-- <source :src="news.video.play_addr.url_list[0]" type="video/mp4" @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"> -->
+
+              <!-- <source src="http://v11-dy.ixigua.com/56a39fc807ae7892527aa706a7be9775/5ab7cc46/video/m/220ca7e7234729b4cd292216fc74ffe4cf31152660d0000577c419dded2/" type="video/mp4" @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"> -->
+              
+         
   </div>
 </template>
 
@@ -64,20 +81,23 @@
         data() {
             return {
                 lists: [],
-
+                
             }
         },
         created(){
-            let url='https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=10';
+            let url='https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=2';
             this.getNews(url,res=>{
                 modal.toast({message:'请求成功',duration:1});
-                this.lists=res.data['aweme_list'];
+                
 
                 let temp = res.data['aweme_list']
 
 //                console.log(res.data['aweme_list'])
                 for(let i=0;i<temp.length;i++){
-                    console.log(res.data['aweme_list'][i].video.play_addr.url_list[0]);                }
+
+                  this.lists.push(res.data['aweme_list'][i].video.play_addr.url_list[0]);
+
+                  console.log(res.data['aweme_list'][i].video.play_addr.url_list[0]);                }
 
             });
         },
@@ -88,18 +108,6 @@
                     type:'jsonp',
                     url:url
                 },callback);
-            },
-            onstart (event) {
-                this.state = 'onstart'
-            },
-            onpause (event) {
-                this.state = 'onpause'
-            },
-            onfinish (event) {
-                this.state = 'onfinish'
-            },
-            onfail (event) {
-                this.state = 'onfinish'
             }
         }
     }

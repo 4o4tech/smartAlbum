@@ -1,5 +1,14 @@
 {
   "ios": [],
   "web": [],
-  "android": []
+  "android": [
+    {
+      "//": "安装类型为maven",
+      "type": "maven",
+      "groupId": "org.weex.plugin",
+      "name": "imagepicker",
+      "version": "0.0.1",
+      "dependency": "org.weex.plugin:imagepicker:0.0.1"
+    }
+  ]
 }

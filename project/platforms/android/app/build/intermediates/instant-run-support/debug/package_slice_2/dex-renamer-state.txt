@@ -1,0 +1,4 @@
+#Sat Apr 21 02:07:01 CST 2018
+base.0=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+renamed.0=classes.dex
+file.0=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

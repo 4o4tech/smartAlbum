@@ -17,7 +17,7 @@
     </div>
 
     <!-- The Third page content-->
-    <div class="item-container" :style="contentStyle">
+    <div class="item-container temp_image" :style="contentStyle">
       <image src="https://cdn.ruguoapp.com/3a9125717a54671a8c16680a1d6b433d?imageView2/0/w/2000/h/400/q/30" style="width:500px; height:500px;"></image>
     </div>
   </wxc-tab-bar>
@@ -33,6 +33,11 @@
 
     width: 750px;
     background-color: #f2f3f4;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+  }
+
+  .temp_image{
     align-items: center;
     justify-content: center;
   }

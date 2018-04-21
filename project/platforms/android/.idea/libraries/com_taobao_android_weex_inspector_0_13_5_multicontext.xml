@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.taobao.android:weex_inspector-0.13.5-multicontext">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_inspector-0.13.5-multicontext.aar/6746b6cb4577915d47571923351bd82a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_inspector-0.13.5-multicontext.aar/6746b6cb4577915d47571923351bd82a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.taobao.android/weex_inspector/0.13.5-multicontext/e92c0b9a1920b924d9c425a53d3f305696c4edf3/weex_inspector-0.13.5-multicontext-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

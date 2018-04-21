@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.instapp.nat:device-battery-2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/device-battery-2.0.0.aar/88fe8d3425f3282d1e19c59af8e5fe16/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/device-battery-2.0.0.aar/88fe8d3425f3282d1e19c59af8e5fe16/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/device-battery/2.0.0/6287f120deed864ae1762aa745cd16b09df4e5a5/device-battery-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

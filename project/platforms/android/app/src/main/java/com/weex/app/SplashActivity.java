@@ -51,4 +51,12 @@ public class SplashActivity extends AppCompatActivity {
     });
     textView.startAnimation(animationSet);
   }
+
+//  @Override
+//  protected void onCreate(Bundle savedInstanceState) {
+//    super.onCreate(savedInstanceState);
+//    Intent intent = new Intent(SplashActivity.this, WXPageActivity.class);
+//    startActivity(intent);
+//    finish();
+//  }
 }

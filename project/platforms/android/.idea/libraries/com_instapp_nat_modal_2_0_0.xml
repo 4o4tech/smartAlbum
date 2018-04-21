@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.instapp.nat:modal-2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/modal-2.0.0.aar/dcf2c66dd122874a1243f36e218ceabe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/modal-2.0.0.aar/dcf2c66dd122874a1243f36e218ceabe/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/modal/2.0.0/16af6cf5b6b89ee25140381db997b1b5139520d8/modal-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

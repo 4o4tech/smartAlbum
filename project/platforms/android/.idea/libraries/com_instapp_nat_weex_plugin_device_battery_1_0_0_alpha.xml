@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.instapp.nat:weex-plugin-device-battery-1.0.0-alpha">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-battery-1.0.0-alpha.aar/6b7246b4abdb95ea6cd47b90725278d6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-battery-1.0.0-alpha.aar/6b7246b4abdb95ea6cd47b90725278d6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/weex-plugin-device-battery/1.0.0-alpha/b5527e61ee5927e7b1e59edd2558878653ea4477/weex-plugin-device-battery-1.0.0-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

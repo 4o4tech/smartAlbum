@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="org.weex.plugin:imagepicker-0.0.3">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.weex.plugin/imagepicker/0.0.3/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.weex.plugin/imagepicker/0.0.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/imagepicker-0.0.3.aar/abe25130036e0d0b0cf5881a919cacac/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/imagepicker-0.0.3.aar/abe25130036e0d0b0cf5881a919cacac/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

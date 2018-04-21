@@ -29,4 +29,10 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
+
+    <style name="SplashTheme">
+        <!--关闭启动窗口-->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
 </resources>

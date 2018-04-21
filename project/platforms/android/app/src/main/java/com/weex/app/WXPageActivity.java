@@ -162,7 +162,8 @@ public class WXPageActivity extends AbsWeexActivity implements
   public void onException(WXSDKInstance instance, String errCode, String msg) {
     mProgressBar.setVisibility(View.GONE);
     mTipView.setVisibility(View.VISIBLE);
-    if (TextUtils.equals(errCode, WXRenderErrorCode.WX_NETWORK_ERROR)) {
+//    if (TextUtils.equals(errCode, WXRenderErrorCode.WX_NETWORK_ERROR)) {
+    if (TextUtils.equals(errCode, WXRenderErrorCode.DegradPassivityCode.WX_DEGRAD_ERR_NETWORK_BUNDLE_DOWNLOAD_FAILED.toString())) {
       mTipView.setText(R.string.index_tip);
     } else {
       mTipView.setText("render error:" + errCode);
@@ -236,7 +237,7 @@ public class WXPageActivity extends AbsWeexActivity implements
       } else if (code.contains("_wx_debug")) {
         uri = Uri.parse(code);
         String debug_url = uri.getQueryParameter("_wx_debug");
-        WXSDKEngine.switchDebugModel(true, debug_url);
+//        WXSDKEngine.switchDebugModel(true, debug_url);
         finish();
       } else {
         JSONObject data = new JSONObject();

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.instapp.nat:weex-plugin-device-info-1.0.0-alpha">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-info-1.0.0-alpha.aar/ece2fcc222dd4299f7533943576d73b9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-info-1.0.0-alpha.aar/ece2fcc222dd4299f7533943576d73b9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

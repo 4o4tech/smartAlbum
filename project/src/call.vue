@@ -1,32 +1,38 @@
 
 <template>
 	
-<text class="text_call" @click="pick()"> Call </text>
+<!-- <text class="text_call" @click="pick"> Call </text> -->
+
+
+<div @click="alert" class="div_btn"><text class="btn_text">call</text></div>
+
 
 </template>
 
 
 
 <script>
-import Nat from 'natjs'
+import Nat from 'natjs';
+
+
+// const Nat = weex.requireModule('natjs');
+const modal = weex.requireModule('modal');
+
 
 export default{
+
 	methods: {
-	pick() {
-			Nat.image.pick({
-				showCamera: true
-			}, (err, ret) => {
-				if (err) {
-					Nat.toast('[ERROR] ' + JSON.stringify(err))
-					return
-				}
-				Nat.toast(JSON.stringify(ret))
-				this.path = ret.paths[0]
-			})
-		}
+
+	alert() {
+			Nat.camera.captureImage({}, (err, ret) => {
+    console.log(ret.path)
+})
+	}
+	
 }
 
 }
+
 
 </script>
 
@@ -35,6 +41,22 @@ export default{
 .text_call{
 	font-size: 24px;
 
+
+}
+
+.div_btn{
+  margin: 0 auto;
+  margin-top:60px;
+  background-color:blue;
+
+}
+
+
+.btn_text{
+  margin:0 auto;
+  text-align:center; 
+  line-height: normal;
+  font-size: 36px;
 }
 
 </style>

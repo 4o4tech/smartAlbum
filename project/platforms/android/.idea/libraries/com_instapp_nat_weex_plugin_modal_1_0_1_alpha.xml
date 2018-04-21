@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.instapp.nat:weex-plugin-modal-1.0.1-alpha">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-modal-1.0.1-alpha.aar/bfee21ef701cb84468d126195069d6e4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-modal-1.0.1-alpha.aar/bfee21ef701cb84468d126195069d6e4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/weex-plugin-modal/1.0.1-alpha/adc1eb5711c9d5b1baa7e7d81e335f3470229c26/weex-plugin-modal-1.0.1-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -11,6 +11,7 @@
 		</div>
 		
 
+		<call></call>
 
 	    <div class="search_box">
 	    	<wxc-searchbar ref="wxc-searchbar"
@@ -36,9 +37,10 @@
 <style scoped>
 
   .container {
+  	display: flex;
+  	top:0px;
     background-color: #f2f3f4;
-    top:0px;
-    height: 100%;
+    height:auto;
     width:750px;
   }
   .value-text {
@@ -61,13 +63,13 @@
 <script>
 	import { WxcSearchbar,WxcMinibar } from 'weex-ui'
 	import selectPic from './components/selectPic.vue'
-
+	import call from './call.vue'
 	const modal = weex.requireModule('modal');
 
 
 
   export default {
-    components: { WxcSearchbar,WxcMinibar,selectPic},
+    components: { WxcSearchbar,WxcMinibar,selectPic,call},
     data: () => ({
       value: ''
     }),

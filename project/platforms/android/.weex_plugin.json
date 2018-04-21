@@ -6,5 +6,40 @@
     "name": "imagepicker",
     "version": "0.0.1",
     "dependency": "org.weex.plugin:imagepicker:0.0.1"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-camera",
+    "version": "1.0.2",
+    "dependency": "com.instapp.nat:weex-plugin-camera:1.0.2"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-transfer",
+    "version": "1.0.0-alpha",
+    "dependency": "com.instapp.nat:weex-plugin-transfer:1.0.0-alpha"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-device-info",
+    "version": "1.0.0-alpha",
+    "dependency": "com.instapp.nat:weex-plugin-device-info:1.0.0-alpha"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-device-battery",
+    "version": "1.0.0-alpha",
+    "dependency": "com.instapp.nat:weex-plugin-device-battery:1.0.0-alpha"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-modal",
+    "version": "1.0.1-alpha",
+    "dependency": "com.instapp.nat:weex-plugin-modal:1.0.1-alpha"
   }
 ]

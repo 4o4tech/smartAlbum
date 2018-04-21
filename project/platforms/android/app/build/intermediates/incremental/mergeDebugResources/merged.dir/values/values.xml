@@ -54,6 +54,7 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="browser_activity_bg">#f5f5f5</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
@@ -779,7 +780,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">WEEX APP</string>
+    <string name="app_name">SmartAlbum</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="capture_qrcode_prompt" translatable="false">请将条码置于取景框内扫描</string>
@@ -787,8 +788,7 @@
     <string name="cpu_not_support_tip" translatable="false">Sorry, your current device is x86 architecture.\n We only
         support arm architecture devices!
     </string>
-    <string name="dummy_content">Hello
-Weex</string>
+    <string name="dummy_content">SmartAlbum</string>
     <string name="gif_tag">动图</string>
     <string name="index_tip" translatable="false">Network Error!\n1.Make sure you use the command "npm run serve"
         launched local service\n2.Make sure you modify "your_current_ip" to your local IP in
@@ -2092,6 +2092,10 @@ Weex</string>
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
+    <style name="SplashTheme">
+        <!--关闭启动窗口-->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>
@@ -2260,6 +2264,11 @@ Weex</string>
     <style name="Theme.Design.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Performance" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/browser_activity_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionBarDivider">@null</item>
     </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>

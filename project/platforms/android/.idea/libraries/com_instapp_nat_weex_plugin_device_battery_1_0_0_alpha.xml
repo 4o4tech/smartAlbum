@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.instapp.nat:weex-plugin-device-battery-1.0.0-alpha">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-battery-1.0.0-alpha.aar/6b7246b4abdb95ea6cd47b90725278d6/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-battery-1.0.0-alpha.aar/6b7246b4abdb95ea6cd47b90725278d6/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-battery-1.0.0-alpha.aar/ed831150a3eccb329ba0005df9442327/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-device-battery-1.0.0-alpha.aar/ed831150a3eccb329ba0005df9442327/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

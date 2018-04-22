@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="com.instapp.nat:weex-plugin-transfer-1.0.0-alpha">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-transfer-1.0.0-alpha.aar/944f0a7107eec8eb3ae31895e540bf51/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-transfer-1.0.0-alpha.aar/944f0a7107eec8eb3ae31895e540bf51/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-transfer-1.0.0-alpha.aar/9d63094fbad91ce0b25d97e1911ed352/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex-plugin-transfer-1.0.0-alpha.aar/9d63094fbad91ce0b25d97e1911ed352/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/weex-plugin-transfer/1.0.0-alpha/ba8fe24f7b84c7034d047225970e0675bc8a7278/weex-plugin-transfer-1.0.0-alpha-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

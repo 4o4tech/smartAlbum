@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="com.instapp.nat:permission-2.0.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/permission-2.0.1.aar/34d53665f070209b23ad0479d0cc3b30/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/permission-2.0.1.aar/34d53665f070209b23ad0479d0cc3b30/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/permission-2.0.1.aar/063b980a77528f30e4cee36f60aed3d4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/permission-2.0.1.aar/063b980a77528f30e4cee36f60aed3d4/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/permission/2.0.1/bf08a2514970ba660c39382db25f9cfc07b64d44/permission-2.0.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -135,6 +135,15 @@ dependencies {
 //    compile 'cn.leancloud.android:avoscloud-statistics:v4.6.4'
 //    compile 'org.weex.plugin:imagepicker:0.0.3'
 
+    compile 'com.yanzhenjie:album:2.0.2'
+
+
+
+//    compile 'com.qiniu:qiniu-android-sdk:7.3.+'
+//    compile 'com.qiniu:qiniu-android-sdk:7.3.+'
+//    compile 'com.squareup.okhttp3:okhttp:3.10.0'
+//    compile 'com.qiniu:happy-dns:0.2.13'
+
 
     // PLUGIN GRADLE EXTENSIONS END
 //        compile 'com.android.support:appcompat-v7:28.0.0-alpha1'

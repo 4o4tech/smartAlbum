@@ -29,6 +29,9 @@
       <div class="selectPic">
 			<selectPic></selectPic>	
       </div>
+
+
+      <call></call>
 		
 
 	</div>
@@ -63,7 +66,7 @@
 <script>
 	import { WxcSearchbar,WxcMinibar } from 'weex-ui'
 	import selectPic from './components/selectPic.vue'
-	import call from './call.vue'
+	import call from './pickItem.vue'
 	const modal = weex.requireModule('modal');
 
 
@@ -93,6 +96,10 @@
       minibarRightButtonClick () {
         modal.toast({ 'message': 'click rightButton!', 'duration': 1 });
       }
+
+
+
+
     }
   };
 	

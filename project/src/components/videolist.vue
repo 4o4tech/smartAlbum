@@ -3,10 +3,14 @@
       <cell bind:v-for=" list in lists" @loadmore="fetch" loadmoreoffset="10">
         <text class="text">{{list}}</text>
         <div class="panel">
-          <!--<video class="video" :src="data['video'].play_addr.url_list[0]"   controls @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>-->
+
+          <!-- <text class="text">{{list['video'].play_addr.url_list[0]}}</text> -->
+          <!-- <video class="video" :src="list['video'].play_addr.url_list[0]"   controls @start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video> -->
+
+
           
 
-          <!--<video class="video" src="http://v11-dy.ixigua.com/56a39fc807ae7892527aa706a7be9775/5ab7cc46/video/m/220ca7e7234729b4cd292216fc74ffe4cf31152660d0000577c419dded2/"  autoplay="true" controls-->
+          <video class="video" src="http://v11-dy.ixigua.com/56a39fc807ae7892527aa706a7be9775/5ab7cc46/video/m/220ca7e7234729b4cd292216fc74ffe4cf31152660d0000577c419dded2/"  autoplay="true" controls
           <!--@start="onstart" @pause="onpause" @finish="onfinish" @fail="onfail"></video>-->
 
         </div>
@@ -46,7 +50,7 @@
     data () {
 
         return {
-            lists: [1, 2]
+            lists: []
         }
     },
     methods: {

@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="com.instapp.nat:transfer-2.0.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transfer-2.0.0.aar/ea376cd847e6e0e2495d77c870df682c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transfer-2.0.0.aar/ea376cd847e6e0e2495d77c870df682c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transfer-2.0.0.aar/9f4ff25806fd7c8a029b7cb3379414ed/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transfer-2.0.0.aar/9f4ff25806fd7c8a029b7cb3379414ed/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/transfer/2.0.0/ee4a2db5fe98d29a44593fd25f53c4567ba52f6d/transfer-2.0.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

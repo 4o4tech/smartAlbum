@@ -8,9 +8,9 @@ package com.alibaba.weex.plugin.loader;
 
 public final class R {
     public static final class drawable {
-        public static final int error = 0x7f070077;
+        public static final int error = 0x7f07007f;
     }
     public static final class string {
-        public static final int app_name = 0x7f0e001f;
+        public static final int app_name = 0x7f0f0036;
     }
 }

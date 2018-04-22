@@ -22,6 +22,15 @@ public class WXApplication extends Application {
     );
     try {
       WXSDKEngine.registerModule("event", WXEventModule.class);
+
+//      WXSDKEngine.registerModule("pickItem", pickItem.class);
+
+      //添加组件
+//      WXSDKEngine.registerComponent("pickItem", pickItem.class);
+
+      //添加组件
+      WXSDKEngine.registerModule("imagePick", imagePick.class);
+
     } catch (WXException e) {
       e.printStackTrace();
     }

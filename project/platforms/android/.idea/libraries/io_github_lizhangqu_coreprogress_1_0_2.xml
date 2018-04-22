@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="io.github.lizhangqu:coreprogress-1.0.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coreprogress-1.0.2.aar/7461f7f4d3d8d663bca2f4abfa3ac89e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coreprogress-1.0.2.aar/7461f7f4d3d8d663bca2f4abfa3ac89e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coreprogress-1.0.2.aar/5f962ce7e71a464714cafb52aa655e55/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coreprogress-1.0.2.aar/5f962ce7e71a464714cafb52aa655e55/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

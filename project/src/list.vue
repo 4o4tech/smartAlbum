@@ -7,7 +7,7 @@
 
          
            <!-- <image class="video" :src="news.video.dynamic_cover.url_list[0]"></image> -->
-            <video class="video"  :src="list"  autoplay="false"  controls  >
+            <video class="video"  :src="list"  autoplay="false"  controls >
 
             </video>
 
@@ -85,7 +85,7 @@
             }
         },
         created(){
-            let url='https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=2';
+            let url='https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=3';
             this.getNews(url,res=>{
                 modal.toast({message:'请求成功',duration:1});
                 
@@ -95,9 +95,11 @@
 //                console.log(res.data['aweme_list'])
                 for(let i=0;i<temp.length;i++){
 
-                  this.lists.push(res.data['aweme_list'][i].video.play_addr.url_list[0]);
+                  // this.lists.push(res.data['aweme_list'][i].video.play_addr.url_list[0]);
 
-                  console.log(res.data['aweme_list'][i].video.play_addr.url_list[0]);                }
+                  this.lists = res.data['aweme_list'];
+
+                  console.log(this.lists);                }
 
             });
         },

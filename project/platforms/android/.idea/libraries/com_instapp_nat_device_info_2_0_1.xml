@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="com.instapp.nat:device-info-2.0.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/device-info-2.0.1.aar/0bd78c4172d8742500772fc94ec74552/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/device-info-2.0.1.aar/0bd78c4172d8742500772fc94ec74552/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/device-info-2.0.1.aar/e50b01f7e9c36039dd50c883b59f7d26/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/device-info-2.0.1.aar/e50b01f7e9c36039dd50c883b59f7d26/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/device-info/2.0.1/2a12d260bbb209de6a7605625eaa09f9d2e2177d/device-info-2.0.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

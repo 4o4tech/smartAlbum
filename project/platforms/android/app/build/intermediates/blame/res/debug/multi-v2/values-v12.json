@@ -4,7 +4,7 @@
             "outputFile": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
             "map": [
                 {
-                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9a0df3fd5e981b932d8b61fd992c5db/res/values-v12/values-v12.xml",
+                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/51968606489ece3e2e52476b3487ee02/res/values-v12/values-v12.xml",
                     "from": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",

@@ -1,0 +1,41 @@
+apply plugin: rootProject.ext.plugins.application
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    testCompile rootProject.ext.dependencies.junit
+    androidTestCompile(rootProject.ext.dependencies.expressoCore, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile rootProject.ext.dependencies.album
+
+    compile rootProject.ext.dependencies.appCompat
+    compile rootProject.ext.dependencies.design
+    compile rootProject.ext.dependencies.recyclerView
+
+    // define image loader.
+    compile rootProject.ext.dependencies.picasso
+    compile rootProject.ext.dependencies.glide
+
+    //qiniu
+    compile 'com.qiniu:qiniu-android-sdk:7.3.3'
+}

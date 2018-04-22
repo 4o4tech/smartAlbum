@@ -4,6 +4,10 @@
 
     <text class="select_title">SmartAlbum, one step manage your videos.</text>
 
+    <wxc-button text="chooseAll" type="blue" size="big"
+              @wxcButtonClicked="chooseAll" class="div_btn"></wxc-button>
+
+
     <wxc-button text="chooseImage" type="blue" size="big"
               @wxcButtonClicked="chooseImage" class="div_btn"></wxc-button>
 
@@ -84,6 +88,8 @@
 
   const plugin = weex.requireModule('imagePicker');
 
+  const mycomp = weex.requireModule('imagePick');
+
   // const Nat = weex.requireModule（'natjs'）;
 
  export default {
@@ -100,6 +106,34 @@
     created: function() {
     },
     methods: {
+
+      chooseAll:function(){
+          let that = this;
+          mycomp.chooseImage({
+            maxSelectCount: 10, //最大选择数 默认9张，最小 1
+            allowSelectGif: true, //是否允许选择Gif，只是控制是否选择，并不控制是否显示，如果为NO，则不显示gif标识 默认true
+            //sourceType: 'camera', //album 从相册选图，camera 使用相机，默认二者都有
+            allowEditImage: true, //是否允许编辑图片，选择一张时候才允许编辑，默认true
+            clipRatio:{
+              x: 16,
+              y: 9
+          },
+        },function (images) {
+
+          let image_arr = [];
+
+          for (let image of images){
+            image_arr.push(image['path'])
+          }
+
+          that.images = image_arr;
+
+                    console.log(JSON.stringify(images));
+                })
+
+      },
+
+
       chooseImage: function() {
         let that = this;
         plugin.chooseImage({
@@ -137,7 +171,7 @@
         plugin.uploadFile({
           url: 'https://up.qiniup.com',
           formData: {
-            token:"hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:nJCquMjbJzDEmGUdIT8bUX7ykA4=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDI5OTczN30="
+            token:"hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:l81RmEyJP4B2qajyfafgkRSlLGY=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDQwODE5Mn0="
           },
           name: 'file',
           filePath:this.images[0]

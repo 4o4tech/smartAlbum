@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="album_check_album_limit">
+        <item quantity="one">Você pode selecionar apenas %1$d arquivo.</item>
+        <item quantity="other">Você pode selecionar apenas %1$d arquivos.</item>
+    </plurals>
+    <plurals name="album_check_album_limit_camera">
+        <item quantity="one">Você atingiu o limite de %1$d arquivo selecionada.</item>
+        <item quantity="other">Você atingiu o limite de %1$d arquivos selecionada.</item>
+    </plurals>
+    <plurals name="album_check_image_limit">
+        <item quantity="one">Você pode selecionar apenas %1$d imagem.</item>
+        <item quantity="other">Você pode selecionar apenas %1$d imagens.</item>
+    </plurals>
+    <plurals name="album_check_image_limit_camera">
+        <item quantity="one">Você atingiu o limite de %1$d imagem selecionada.</item>
+        <item quantity="other">Você atingiu o limite de %1$d imagens selecionada.</item>
+    </plurals>
+    <plurals name="album_check_video_limit">
+        <item quantity="one">Você pode selecionar apenas %1$d vídeo.</item>
+        <item quantity="other">Você pode selecionar apenas %1$d vídeos.</item>
+    </plurals>
+    <plurals name="album_check_video_limit_camera">
+        <item quantity="one">Você atingiu o limite de %1$d vídeo selecionada.</item>
+        <item quantity="other">Você atingiu o limite de %1$d vídeos selecionada.</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -19,6 +43,29 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="album_all_images">Todas Imagens</string>
+    <string name="album_all_images_videos">Todas Imagens/Vídeos</string>
+    <string name="album_all_videos">Todos Vídeos</string>
+    <string name="album_camera_image_capture">Tire foto</string>
+    <string name="album_camera_video_capture">Gravação vídeo</string>
+    <string name="album_check">Selecionado</string>
+    <string name="album_check_album_little">Você ainda não escolheu o arquivo de mídia</string>
+    <string name="album_check_image_little">Você ainda não escolheu o arquivo de imagem</string>
+    <string name="album_check_video_little">Você ainda não escolheu o arquivo de vídeo</string>
+    <string name="album_dialog_sure">Confirmar</string>
+    <string name="album_item_unavailable">Não disponível</string>
+    <string name="album_menu_camera_image">Tire foto</string>
+    <string name="album_menu_camera_video">Gravação vídeo</string>
+    <string name="album_menu_finish">Finalizar</string>
+    <string name="album_not_found_album">Nenhum arquivo de mídia encontrado</string>
+    <string name="album_not_found_image">Nenhum arquivo de imagem encontrado</string>
+    <string name="album_not_found_video">Nenhum arquivo de vídeo encontrado</string>
+    <string name="album_permission_camera_image_failed_hint">Falha ao obter permissões de Câmera/Armazenamento, autorize nas Configurações antes de usar.</string>
+    <string name="album_permission_camera_video_failed_hint">Falha ao obter permissões de Câmera/Armazenamento/Microfone, autorize nas Configurações antes de usar.</string>
+    <string name="album_permission_storage_failed_hint">Falha ao obter permissão de Armazenamento, por favor autorize nas Configurações antes de usar.</string>
+    <string name="album_take_file_unavailable">Arquivo indisponível, tente novamente.</string>
+    <string name="album_title">Álbum Mídia</string>
+    <string name="album_title_permission_failed">Falha ao acessar</string>
     <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -10489,6 +10489,7 @@ _weexVueRender2.default.init(_vue2.default);
 /* weex initialized here, please do not move this line */
 var router = __webpack_require__(26);
 var App = __webpack_require__(30);
+// const App = require('@/list.vue');
 /* eslint-disable no-new */
 new _vue2.default(_vue2.default.util.extend({ el: '#root', router: router }, App));
 router.push('/');
@@ -23950,7 +23951,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(34),
   /* template */
-  __webpack_require__(340),
+  __webpack_require__(345),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -24075,36 +24076,14 @@ var _mainPage = __webpack_require__(304);
 
 var _mainPage2 = _interopRequireDefault(_mainPage);
 
+var _videolist = __webpack_require__(348);
+
+var _videolist2 = _interopRequireDefault(_videolist);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import config.js 
-exports.default = {
-  components: {
-    WxcTabBar: _weexUi.WxcTabBar,
-    mainPage: _mainPage2.default
-  },
-  data: function data() {
-    return {
-      tabTitles: _config2.default.tabTitles,
-      tabStyles: _config2.default.tabStyles
-    };
-  },
-  created: function created() {
-    var tabPageHeight = _weexUi.Utils.env.getPageHeight();
-    // If the page doesn't have a navigation bar
-    // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
-    var tabStyles = this.tabStyles;
+// import videolist from '.list.vue'
 
-    this.contentStyle = { height: tabPageHeight - tabStyles.height + 'px' };
-  },
-
-  methods: {
-    wxcTabBarCurrentTabSelected: function wxcTabBarCurrentTabSelected(e) {
-      var index = e.page;
-      // console.log(index);
-    }
-  }
-};
 
 //first page selectPic module
 // import selectVideo from './components/selectPic.vue'
@@ -24154,6 +24133,37 @@ exports.default = {
 //
 //
 //
+
+exports.default = {
+  components: {
+    WxcTabBar: _weexUi.WxcTabBar,
+    mainPage: _mainPage2.default,
+    videolist: _videolist2.default
+  },
+  data: function data() {
+    return {
+      tabTitles: _config2.default.tabTitles,
+      tabStyles: _config2.default.tabStyles
+    };
+  },
+  created: function created() {
+    var tabPageHeight = _weexUi.Utils.env.getPageHeight();
+    // If the page doesn't have a navigation bar
+    // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
+    var tabStyles = this.tabStyles;
+
+    this.contentStyle = { height: tabPageHeight - tabStyles.height + 'px' };
+  },
+
+  methods: {
+    wxcTabBarCurrentTabSelected: function wxcTabBarCurrentTabSelected(e) {
+      var index = e.page;
+      // console.log(index);
+    }
+  }
+};
+
+// import config.js
 
 /***/ }),
 /* 35 */
@@ -33554,7 +33564,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }) : _vm._e(), _vm._v(" "), _c('p', {
     staticClass: "noticebar-content weex-el weex-text",
     style: ({
-      width: _vm._px2rem(_vm.contentWidth + 'px', 75),
+      width: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.contentWidth + 'px', 75), 75), 75),
       webkitLineClamp: _vm.lines,
       overflow: 'hidden',
       textOverflow: 'ellipsis'
@@ -36494,7 +36504,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }), _vm._v(" "), _c('p', {
     staticClass: "u-txt weex-el weex-text",
     style: ({
-      width: _vm._px2rem((_vm.textWidth + "px"), 75)
+      width: _vm._px2rem(_vm._px2rem(_vm._px2rem((_vm.textWidth + "px"), 75), 75), 75)
     }),
     attrs: {
       "weex-type": "text"
@@ -40430,7 +40440,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticClass: "icon-font weex-el weex-text",
       style: ({
         fontFamily: 'wxcIconFont',
-        fontSize: _vm._px2rem(_vm.tabStyles.iconFontSize + 'px', 75),
+        fontSize: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.iconFontSize + 'px', 75), 75), 75),
         color: _vm.currentPage === index ? _vm.tabStyles.activeIconFontColor : _vm.tabStyles.iconFontColor
       }),
       attrs: {
@@ -40439,11 +40449,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }, [_vm._v(_vm._s(v.codePoint))]) : _vm._e(), _vm._v(" "), (!_vm.titleUseSlot) ? _c('p', {
       staticClass: "tab-text weex-el weex-text",
       style: ({
-        fontSize: _vm._px2rem(_vm.tabStyles.fontSize + 'px', 75),
+        fontSize: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.fontSize + 'px', 75), 75), 75),
         fontWeight: _vm.currentPage === index && _vm.tabStyles.isActiveTitleBold ? 'bold' : 'normal',
         color: _vm.currentPage === index ? _vm.tabStyles.activeTitleColor : _vm.tabStyles.titleColor,
-        paddingLeft: _vm._px2rem(_vm.tabStyles.textPaddingLeft + 'px', 75),
-        paddingRight: _vm._px2rem(_vm.tabStyles.textPaddingRight + 'px', 75)
+        paddingLeft: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingLeft + 'px', 75), 75), 75),
+        paddingRight: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingRight + 'px', 75), 75), 75)
       }),
       attrs: {
         "weex-type": "text"
@@ -40987,11 +40997,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }) : _vm._e(), _vm._v(" "), _c('p', {
       staticClass: "tab-text weex-el weex-text",
       style: ({
-        fontSize: _vm._px2rem(_vm.tabStyles.fontSize + 'px', 75),
+        fontSize: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.fontSize + 'px', 75), 75), 75), 75), 75),
         fontWeight: _vm.currentPage == index && _vm.tabStyles.isActiveTitleBold ? 'bold' : 'normal',
         color: _vm.currentPage == index ? _vm.tabStyles.activeTitleColor : _vm.tabStyles.titleColor,
-        paddingLeft: _vm._px2rem(_vm.tabStyles.textPaddingLeft + 'px', 75),
-        paddingRight: _vm._px2rem(_vm.tabStyles.textPaddingRight + 'px', 75)
+        paddingLeft: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingLeft + 'px', 75), 75), 75), 75), 75),
+        paddingRight: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingRight + 'px', 75), 75), 75), 75), 75)
       }),
       attrs: {
         "weex-type": "text"
@@ -41477,8 +41487,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticClass: " weex-el weex-text",
       style: ({
         fontFamily: 'wxcIconFont',
-        fontSize: _vm._px2rem(_vm.tabStyles.iconFontSize + 'px', 75),
-        marginBottom: _vm._px2rem(_vm.tabStyles.iconFontMarginBottom ? _vm.tabStyles.iconFontMarginBottom + 'px' : '8px', 75),
+        fontSize: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.iconFontSize + 'px', 75), 75), 75),
+        marginBottom: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.iconFontMarginBottom ? _vm.tabStyles.iconFontMarginBottom + 'px' : '8px', 75), 75), 75),
         color: _vm.currentPage == index ? _vm.tabStyles.activeIconFontColor : _vm.tabStyles.iconFontColor
       }),
       attrs: {
@@ -41487,11 +41497,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }, [_vm._v(_vm._s(v.codePoint))]) : _vm._e(), _vm._v(" "), (!_vm.titleUseSlot) ? _c('p', {
       staticClass: "tab-text weex-el weex-text",
       style: ({
-        fontSize: _vm._px2rem(_vm._px2rem(_vm.tabStyles.fontSize + 'px', 75), 75),
+        fontSize: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.fontSize + 'px', 75), 75), 75), 75), 75), 75),
         fontWeight: _vm.currentPage == index && _vm.tabStyles.isActiveTitleBold ? 'bold' : 'normal',
         color: _vm.currentPage == index ? _vm.tabStyles.activeTitleColor : _vm.tabStyles.titleColor,
-        paddingLeft: _vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingLeft + 'px', 75), 75),
-        paddingRight: _vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingRight + 'px', 75), 75)
+        paddingLeft: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingLeft + 'px', 75), 75), 75), 75), 75), 75),
+        paddingRight: _vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm._px2rem(_vm.tabStyles.textPaddingRight + 'px', 75), 75), 75), 75), 75), 75)
       }),
       attrs: {
         "weex-type": "text"
@@ -41966,7 +41976,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(307),
   /* template */
-  __webpack_require__(339),
+  __webpack_require__(344),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -42054,9 +42064,9 @@ var _selectPic = __webpack_require__(308);
 
 var _selectPic2 = _interopRequireDefault(_selectPic);
 
-var _call = __webpack_require__(343);
+var _pickItem = __webpack_require__(339);
 
-var _call2 = _interopRequireDefault(_call);
+var _pickItem2 = _interopRequireDefault(_pickItem);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42122,9 +42132,12 @@ var modal = weex.requireModule('modal'); //
 //
 //
 //
+//
+//
+//
 
 exports.default = {
-  components: { WxcSearchbar: _weexUi.WxcSearchbar, WxcMinibar: _weexUi.WxcMinibar, selectPic: _selectPic2.default, call: _call2.default },
+  components: { WxcSearchbar: _weexUi.WxcSearchbar, WxcMinibar: _weexUi.WxcMinibar, selectPic: _selectPic2.default, call: _pickItem2.default },
   data: function data() {
     return {
       value: ''
@@ -42322,6 +42335,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
 
 
 // import {Nat} from 'natjs';
@@ -42330,6 +42347,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var modal = weex.requireModule('modal');
 
 var plugin = weex.requireModule('imagePicker');
+
+var mycomp = weex.requireModule('imagePick');
 
 // const Nat = weex.requireModule（'natjs'）;
 
@@ -42345,9 +42364,10 @@ exports.default = {
   },
   created: function created() {},
   methods: {
-    chooseImage: function chooseImage() {
+
+    chooseAll: function chooseAll() {
       var that = this;
-      plugin.chooseImage({
+      mycomp.chooseImage({
         maxSelectCount: 10, //最大选择数 默认9张，最小 1
         allowSelectGif: true, //是否允许选择Gif，只是控制是否选择，并不控制是否显示，如果为NO，则不显示gif标识 默认true
         //sourceType: 'camera', //album 从相册选图，camera 使用相机，默认二者都有
@@ -42390,6 +42410,52 @@ exports.default = {
         console.log(JSON.stringify(images));
       });
     },
+
+    chooseImage: function chooseImage() {
+      var that = this;
+      plugin.chooseImage({
+        maxSelectCount: 10, //最大选择数 默认9张，最小 1
+        allowSelectGif: true, //是否允许选择Gif，只是控制是否选择，并不控制是否显示，如果为NO，则不显示gif标识 默认true
+        //sourceType: 'camera', //album 从相册选图，camera 使用相机，默认二者都有
+        allowEditImage: true, //是否允许编辑图片，选择一张时候才允许编辑，默认true
+        clipRatio: {
+          x: 16,
+          y: 9
+        }
+      }, function (images) {
+
+        var image_arr = [];
+
+        var _iteratorNormalCompletion2 = true;
+        var _didIteratorError2 = false;
+        var _iteratorError2 = undefined;
+
+        try {
+          for (var _iterator2 = images[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+            var image = _step2.value;
+
+            image_arr.push(image['path']);
+          }
+        } catch (err) {
+          _didIteratorError2 = true;
+          _iteratorError2 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion2 && _iterator2.return) {
+              _iterator2.return();
+            }
+          } finally {
+            if (_didIteratorError2) {
+              throw _iteratorError2;
+            }
+          }
+        }
+
+        that.images = image_arr;
+
+        console.log(JSON.stringify(images));
+      });
+    },
     previewImage: function previewImage() {
       plugin.previewImage({
         urls: ['http://pic.962.net/up/2013-11/20131111660842029339.jpg', 'http://pic.962.net/up/2013-11/20131111660842034354.jpg'],
@@ -42400,7 +42466,7 @@ exports.default = {
       plugin.uploadFile({
         url: 'https://up.qiniup.com',
         formData: {
-          token: "hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:nJCquMjbJzDEmGUdIT8bUX7ykA4=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDI5OTczN30="
+          token: "hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:l81RmEyJP4B2qajyfafgkRSlLGY=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDQwODE5Mn0="
         },
         name: 'file',
         filePath: this.images[0]
@@ -45181,6 +45247,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("SmartAlbum, one step manage your videos.")]), _vm._v(" "), _c('wxc-button', {
     staticClass: "div_btn",
     attrs: {
+      "text": "chooseAll",
+      "type": "blue",
+      "size": "big",
+      "data-evt-wxcButtonClicked": ""
+    },
+    on: {
+      "wxcButtonClicked": _vm.chooseAll
+    }
+  }), _vm._v(" "), _c('wxc-button', {
+    staticClass: "div_btn",
+    attrs: {
       "text": "chooseImage",
       "type": "blue",
       "size": "big",
@@ -45234,6 +45311,194 @@ if (false) {
 
 /***/ }),
 /* 339 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(340)
+}
+var Component = __webpack_require__(0)(
+  /* script */
+  __webpack_require__(342),
+  /* template */
+  __webpack_require__(343),
+  /* styles */
+  injectStyle,
+  /* scopeId */
+  "data-v-328c3be3",
+  /* moduleIdentifier (server only) */
+  null
+)
+Component.options.__file = "/Users/jimzezhang/workspace/smartAlbum/project/src/pickItem.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] pickItem.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-328c3be3", Component.options)
+  } else {
+    hotAPI.reload("data-v-328c3be3", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 340 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(341);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("35e81e82", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-328c3be3\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pickItem.vue", function() {
+     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-328c3be3\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pickItem.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 341 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.div_btn[data-v-328c3be3]{\n  margin: 0 auto;\n  margin-top:0.8rem;\n  background-color:blue;\n}\n.btn_text[data-v-328c3be3]{\n  margin:0 auto;\n  text-align:center; \n  line-height: normal;\n  font-size: 0.48rem;\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 342 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+module.exports = {
+
+  methods: {
+    click: function click() {
+
+      weex.requireModule('imagePick').chooseImage({
+        maxSelectCount: 10, //最大选择数 默认9张，最小 1
+        allowSelectGif: true, //是否允许选择Gif，只是控制是否选择，并不控制是否显示，如果为NO，则不显示gif标识 默认true
+        //sourceType: 'camera', //album 从相册选图，camera 使用相机，默认二者都有
+        allowEditImage: true, //是否允许编辑图片，选择一张时候才允许编辑，默认true
+        clipRatio: {
+          x: 16,
+          y: 9
+        }
+      }, function (images) {
+
+        var image_arr = [];
+
+        var _iteratorNormalCompletion = true;
+        var _didIteratorError = false;
+        var _iteratorError = undefined;
+
+        try {
+          for (var _iterator = images[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+            var image = _step.value;
+
+            image_arr.push(image['path']);
+          }
+        } catch (err) {
+          _didIteratorError = true;
+          _iteratorError = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion && _iterator.return) {
+              _iterator.return();
+            }
+          } finally {
+            if (_didIteratorError) {
+              throw _iteratorError;
+            }
+          }
+        }
+
+        that.images = image_arr;
+
+        console.log(JSON.stringify(images));
+      });
+    }
+  }
+};
+
+/***/ }),
+/* 343 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "div_btn weex-ct weex-div",
+    attrs: {
+      "weex-type": "div",
+      "data-evt-click": ""
+    },
+    on: {
+      "click": _vm.$stopOuterA,
+      "weex$tap": function($event) {
+        $event.stopPropagation();
+        return _vm.click($event)
+      }
+    }
+  }, [_c('p', {
+    staticClass: "btn_text weex-el weex-text",
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("testMyModule")])])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-328c3be3", module.exports)
+  }
+}
+
+/***/ }),
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -45293,7 +45558,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "div"
     }
-  }, [_c('selectPic')], 1)], 1)
+  }, [_c('selectPic')], 1), _vm._v(" "), _c('call')], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -45304,7 +45569,7 @@ if (false) {
 }
 
 /***/ }),
-/* 340 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -45335,12 +45600,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "div"
     }
-  }, [_c('p', {
-    staticClass: " weex-el weex-text",
-    attrs: {
-      "weex-type": "text"
-    }
-  }, [_vm._v("Collection")])]), _vm._v(" "), _c('div', {
+  }, [_c('videolist', [_vm._v("Collection")])], 1), _vm._v(" "), _c('div', {
     staticClass: "item-container temp_image weex-ct weex-div",
     style: (_vm._px2rem(_vm.contentStyle, 75)),
     attrs: {
@@ -45368,31 +45628,31 @@ if (false) {
 }
 
 /***/ }),
-/* 341 */,
-/* 342 */,
-/* 343 */
+/* 346 */,
+/* 347 */,
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(344)
+  __webpack_require__(349)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(346),
+  __webpack_require__(351),
   /* template */
-  __webpack_require__(347),
+  __webpack_require__(352),
   /* styles */
   injectStyle,
   /* scopeId */
-  null,
+  "data-v-78db4f22",
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/jimzezhang/workspace/smartAlbum/project/src/call.vue"
+Component.options.__file = "/Users/jimzezhang/workspace/smartAlbum/project/src/components/videolist.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] call.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] videolist.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -45401,9 +45661,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6d683ded", Component.options)
+    hotAPI.createRecord("data-v-78db4f22", Component.options)
   } else {
-    hotAPI.reload("data-v-6d683ded", Component.options)
+    hotAPI.reload("data-v-78db4f22", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -45414,23 +45674,23 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 344 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(345);
+var content = __webpack_require__(350);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("2eca94ec", content, false, {});
+var update = __webpack_require__(2)("9b7e4de8", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6d683ded\",\"scoped\":false,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./call.vue", function() {
-     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6d683ded\",\"scoped\":false,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./call.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-78db4f22\",\"scoped\":true,\"hasInlineConfig\":true}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./videolist.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-78db4f22\",\"scoped\":true,\"hasInlineConfig\":true}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./videolist.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -45440,7 +45700,7 @@ if(false) {
 }
 
 /***/ }),
-/* 345 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -45448,29 +45708,28 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n.text_call{\n\tfont-size: 0.32rem;\n}\n.div_btn{\n  margin: 0 auto;\n  margin-top:0.8rem;\n  background-color:blue;\n}\n.btn_text{\n  margin:0 auto;\n  text-align:center; \n  line-height: normal;\n  font-size: 0.48rem;\n}\n\n", ""]);
+exports.push([module.i, "\n.panel[data-v-78db4f22] {\n  width: 9.66667rem;\n  height: 12.8rem;\n  margin-left: 0.13333rem;\n  margin-top: 0.46667rem;\n  margin-bottom: 0.46667rem;\n  flex-direction: column;\n  justify-content: center;\n  border-width: 0.02667rem;\n  border-style: solid;\n  border-color: rgb(162, 217, 192);\n  background-color: rgba(162, 217, 192, 0.2);\n}\n.text[data-v-78db4f22] {\n  font-size: 0.32rem;\n  text-align: center;\n  color: #41B883;\n}\n.video[data-v-78db4f22]{\n  margin-top:0.26667rem;\n  width: 9.6rem;\n  height: 12.8rem;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 346 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
 
-var _natjs = __webpack_require__(312);
+var _vue = __webpack_require__(13);
 
-var _natjs2 = _interopRequireDefault(_natjs);
+var _vue2 = _interopRequireDefault(_vue);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// const Nat = weex.requireModule('natjs');
 var modal = weex.requireModule('modal'); //
 //
 //
@@ -45484,49 +45743,134 @@ var modal = weex.requireModule('modal'); //
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+var LOADMORE_COUNT = 2;
+var stream = weex.requireModule('stream');
+
+var longList = [{ type: 'A' }, { type: 'B' }, { type: 'B' }, { type: 'A' }, { type: 'B' }];
 
 exports.default = {
+  data: function data() {
 
-	methods: {
-		alert: function alert() {
-			_natjs2.default.camera.captureImage({}, function (err, ret) {
-				console.log(ret.path);
-			});
-		}
-	}
+    return {
+      lists: []
+    };
+  },
 
+  methods: {
+    fetch: function fetch(event) {
+      var _this2 = this;
+
+      modal.toast({ message: 'loadmore', duration: 1 });
+
+      this.$nextTick(function () {
+        var length = _this2.lists.length;
+        for (var i = length; i < length + LOADMORE_COUNT; ++i) {
+          _this2.lists.push(i + 1);
+        }
+      });
+    },
+    getVideo: function getVideo(url, callback) {
+      return stream.fetch({
+        method: 'GET',
+        type: 'jsonp',
+        url: url
+      }, callback);
+    },
+    onstart: function onstart(event) {
+      this.state = 'onstart';
+    },
+    onpause: function onpause(event) {
+      this.state = 'onpause';
+    },
+    onfinish: function onfinish(event) {
+      this.state = 'onfinish';
+    },
+    onfail: function onfail(event) {
+      this.state = 'onfinish';
+    },
+
+
+    // 模拟ajax
+    loadUrl: function loadUrl() {
+      var _this = this;
+      setTimeout(function () {
+        _this.url = 'http://img-cdn.wanyouxi.com/video/20170601_mdzz_recommend_video.mp4';
+      }, 500);
+    }
+
+  },
+  created: function created() {
+    var _this3 = this;
+
+    var url = 'https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=5';
+
+    this.getVideo(url, function (res) {
+      //get ajax data from server side
+      modal.toast({ message: 'Succeesful get data', duration: 1 });
+      // give server data to page data
+      _this3.lists = res.data['aweme_list'];
+
+      //test , work
+      console.log(_this3.lists);
+    });
+  }
 };
 
 /***/ }),
-/* 347 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "div_btn weex-ct weex-div",
+  return _c('list', [_c('section', {
+    staticClass: " weex-ct weex-cell",
     attrs: {
-      "weex-type": "div",
-      "data-evt-click": ""
+      "bind:v-for": " list in lists",
+      "loadmoreoffset": "10",
+      "weex-type": "cell",
+      "data-evt-loadmore": ""
     },
     on: {
-      "click": _vm.$stopOuterA,
-      "weex$tap": function($event) {
-        $event.stopPropagation();
-        return _vm.alert($event)
-      }
+      "loadmore": _vm.fetch
     }
   }, [_c('p', {
-    staticClass: "btn_text weex-el weex-text",
+    staticClass: "text weex-el weex-text",
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v("call")])])
+  }, [_vm._v(_vm._s(_vm.list))]), _vm._v(" "), _c('div', {
+    staticClass: "panel weex-ct weex-div",
+    attrs: {
+      "weex-type": "div"
+    }
+  })])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-6d683ded", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-78db4f22", module.exports)
   }
 }
 

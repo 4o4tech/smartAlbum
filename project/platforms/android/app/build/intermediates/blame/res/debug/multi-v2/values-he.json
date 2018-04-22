@@ -4,7 +4,7 @@
             "outputFile": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/2f304ac5c9503dce771e25f121a984e5/res/values-he/values-he.xml",
+                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/ddff23dbec16cac52c559cb0faec51b6/res/values-he/values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

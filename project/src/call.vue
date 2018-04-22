@@ -4,7 +4,7 @@
 <!-- <text class="text_call" @click="pick"> Call </text> -->
 
 
-<div @click="alert" class="div_btn"><text class="btn_text">call</text></div>
+<div @click="jump" class="div_btn"><text class="btn_text">call</text></div>
 
 
 </template>
@@ -13,24 +13,22 @@
 
 <script>
 import Nat from 'natjs';
-
+import list from './list.vue'
 
 // const Nat = weex.requireModule('natjs');
 const modal = weex.requireModule('modal');
-
+var navigator = weex.requireModule('navigator')
 
 export default{
 
 	methods: {
 
-	alert() {
+	jump() {
 			Nat.camera.captureImage({}, (err, ret) => {
-    console.log(ret.path)
-})
-	}
-	
-}
-
+        console.log(ret.path)
+      })
+    }
+  }
 }
 
 

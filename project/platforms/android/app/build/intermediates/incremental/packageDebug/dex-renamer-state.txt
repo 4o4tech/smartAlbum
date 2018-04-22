@@ -1,7 +1,0 @@
-#Sat Apr 21 02:49:03 CST 2018
-base.0=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_16b59ba982dae35a4bd90796341c9a650b9d9957
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0f5570072f13bda4fdcd9ceaa6be883bf4928e1d/classes.dex
-base.1=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0f5570072f13bda4fdcd9ceaa6be883bf4928e1d
-file.0=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_16b59ba982dae35a4bd90796341c9a650b9d9957/classes.dex

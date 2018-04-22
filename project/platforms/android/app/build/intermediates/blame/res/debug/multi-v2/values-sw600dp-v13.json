@@ -4,7 +4,7 @@
             "outputFile": "/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f399a5c536377166b9889110253f9e42/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/295a71f758f71d06047ca0b485a7f0c8/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9a0df3fd5e981b932d8b61fd992c5db/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/jimzezhang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/51968606489ece3e2e52476b3487ee02/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

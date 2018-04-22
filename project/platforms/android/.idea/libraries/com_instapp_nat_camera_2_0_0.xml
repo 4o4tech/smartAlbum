@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="com.instapp.nat:camera-2.0.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/camera-2.0.0.aar/23781a0fd9e77b7f3039978f19dfdee1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/camera-2.0.0.aar/23781a0fd9e77b7f3039978f19dfdee1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/camera-2.0.0.aar/b00f51c7c66f4ae3a4f1eb6e5fc59ded/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/camera-2.0.0.aar/b00f51c7c66f4ae3a4f1eb6e5fc59ded/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instapp.nat/camera/2.0.0/9c5766b0da5c4c8b5b76110b6497daa5427afe68/camera-2.0.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

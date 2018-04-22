@@ -13,7 +13,7 @@
 
     <!--The second page content-->
     <div class="item-container" :style="contentStyle">
-    <text>Collection</text>
+    <videolist>Collection</videolist>
     </div>
 
     <!-- The Third page content-->
@@ -54,10 +54,17 @@
   // import selectVideo from './components/selectPic.vue'
   import mainPage from './mainPage.vue'
 
+  import videolist from './components/videolist.vue'
+
+  // import videolist from '.list.vue'
+
+
+
   export default {
     components: { 
       WxcTabBar,
-      mainPage
+      mainPage,
+      videolist
     },
     data: () => ({
       tabTitles: Config.tabTitles,

@@ -1,7 +1,7 @@
-#Sat Apr 21 18:19:34 CST 2018
-base.0=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dexMerger/debug/42
+#Sun Apr 22 21:53:25 CST 2018
+base.0=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dexMerger/debug/11
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dexMerger/debug/41
+base.1=/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/transforms/dexMerger/debug/12

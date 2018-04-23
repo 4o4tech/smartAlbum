@@ -1,1 +1,0 @@
-[{"canOverrideExisting":true,"class":"com.weex.app.imagePick","crossBundle":false,"functions":["asyncRet","uploadFile","syncRet","chooseImage","previewImage"],"globalRegistration":false,"lazyLoad":false,"name":"imagePicker"}]

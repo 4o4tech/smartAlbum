@@ -12,13 +12,17 @@
     <div class="item-container" :style="contentStyle"><mainPage>main page</mainPage></div>
 
     <!--The second page content-->
-    <div class="item-container" :style="contentStyle">
-    <videolist>Collection</videolist>
+    <div class="item-container  temp_image" :style="contentStyle">
+       <image src="https://cdn.ruguoapp.com/3a9125717a54671a8c16680a1d6b433d?imageView2/0/w/2000/h/400/q/30" style="width:500px; height:500px;"></image>
+
+    <test></test>
     </div>
 
     <!-- The Third page content-->
-    <div class="item-container temp_image" :style="contentStyle">
-      <image src="https://cdn.ruguoapp.com/3a9125717a54671a8c16680a1d6b433d?imageView2/0/w/2000/h/400/q/30" style="width:500px; height:500px;"></image>
+    <div class="item-container" :style="contentStyle">
+
+      <videolist></videolist>
+      <!-- <image src="https://cdn.ruguoapp.com/3a9125717a54671a8c16680a1d6b433d?imageView2/0/w/2000/h/400/q/30" style="width:500px; height:500px;"></image> -->
     </div>
   </wxc-tab-bar>
 
@@ -35,11 +39,12 @@
     background-color: #f2f3f4;
     /*align-items: center;*/
     /*justify-content: center;*/
+    height:960px;
   }
 
   .temp_image{
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
   }
 
 
@@ -56,6 +61,8 @@
 
   import videolist from './components/videolist.vue'
 
+  import test from './components/test.vue'
+
   // import videolist from '.list.vue'
 
 
@@ -64,7 +71,8 @@
     components: { 
       WxcTabBar,
       mainPage,
-      videolist
+      videolist,
+      test
     },
     data: () => ({
       tabTitles: Config.tabTitles,
@@ -75,7 +83,8 @@
       // If the page doesn't have a navigation bar
       // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
       const { tabStyles } = this;
-      this.contentStyle = { height: (tabPageHeight - tabStyles.height) + 'px' };
+      // this.contentStyle = { height: (tabPageHeight - tabStyles.height*0.8) + 'px' };
+      this.contentStyle = { height: (tabPageHeight) + 'px' };
     },
     methods: {
       wxcTabBarCurrentTabSelected (e) {

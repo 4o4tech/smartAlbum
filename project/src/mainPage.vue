@@ -2,16 +2,14 @@
 	<div class="container">
 
 		<div class="nav_bar">
-			<wxc-minibar title="标题"
+			<wxc-minibar title="Mian Page"
 			background-color="#009ff0"
 			text-color="#FFFFFF"
-			right-text="更多"
+			right-text="More"
 			@wxcMinibarLeftButtonClicked="minibarLeftButtonClick"
 			@wxcMinibarRightButtonClicked="minibarRightButtonClick"></wxc-minibar>
 		</div>
 		
-
-		<call></call>
 
 	    <div class="search_box">
 	    	<wxc-searchbar ref="wxc-searchbar"
@@ -31,7 +29,6 @@
       </div>
 
 
-      <call></call>
 		
 
 	</div>
@@ -77,8 +74,8 @@
       value: ''
     }),
     methods: {
-      wxcSearchbarInputOnFocus (e) {
-      	this.value = e.value;
+      wxcSearchbarInputOnFocus () {
+      	// this.value = e.value;
       },
       wxcSearchbarInputOnBlur () {
       },

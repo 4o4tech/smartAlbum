@@ -5,40 +5,38 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1524405201218"
+    timestamp="1524485899271"
     token="-1287895310736736185"
-    verifier="JAVA_RESOURCES_CHANGED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1878" />
+        duration="1815" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="20" />
+        duration="33" />
     <task
         name="verifier"
-        duration="6" />
+        duration="16" />
 
     <artifact
         location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/instant-run-apk/debug/com.weex.app_1.0.0_2018-04-22-debug.apk"
+        location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/instant-run-apk/debug/com.weex.app_1.0.0_2018-04-23-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1524401318700"
+        timestamp="1524477607604"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/instant-run-apk/debug/com.weex.app_1.0.0_2018-04-22-debug.apk"
+            location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/instant-run-apk/debug/com.weex.app_1.0.0_2018-04-23-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
             location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -62,6 +60,9 @@
             location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
@@ -76,13 +77,14 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1524405201218"
-        verifier="JAVA_RESOURCES_CHANGED" >
+        ir-eligibility="COMPATIBLE"
+        timestamp="1524485899271"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/instant-run-apk/debug/com.weex.app_1.0.0_2018-04-22-debug.apk"
+            location="/Users/jimzezhang/workspace/smartAlbum/project/platforms/android/app/build/intermediates/instant-run-apk/debug/com.weex.app_1.0.0_2018-04-23-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

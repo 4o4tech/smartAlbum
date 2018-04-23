@@ -171,13 +171,17 @@
         plugin.uploadFile({
           url: 'https://up.qiniup.com',
           formData: {
-            token:"hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:l81RmEyJP4B2qajyfafgkRSlLGY=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDQwODE5Mn0="
+            token:"hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:i0fSeKh_PC0jST57rSwnlN_l8eo=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDUyNzExMn0="
+
           },
           name: 'file',
           filePath:this.images[0]
 //          filePath:'zcfile://tmp_L3N0b3JhZ2UvZW11bGF0ZWQvMC9QaWN0dXJlU2VsZWN0b3IvQ2FtZXJhSW1hZ2UvUGljdHVyZVNl\nbGVjdG9yXzIwMTcxMjA1XzIzMDAwMC5KUEVH\n'
         },function (successData) {
-          console.log("hehe"+successData)
+
+          
+          console.log("hehe")
+          console.log(successData)
           modal.toast({ 'message': 'Images upload success.', 'duration': 1 });
 
         },function (err) {

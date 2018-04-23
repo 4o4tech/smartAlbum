@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.util.Base64;
 import android.util.Log;
+import android.webkit.MimeTypeMap;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -200,6 +201,8 @@ public class imagePick extends WXModule{
 
             File file = new File(filePath);
 
+           Log.d("TAG", "hahahehe" + filePath.toString() );
+
             SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddhhmmss", Locale.CHINESE);
 
             String date = sDateFormat.format(new java.util.Date());
@@ -207,17 +210,26 @@ public class imagePick extends WXModule{
 
 
 
-            builder.addFormDataPart("file",date + ".mp4", RequestBody.create(MediaType.parse("video/mp4"), file));
+
+            builder.addFormDataPart("file",date + ".mp4", RequestBody.create(MediaType.parse("mp4"), file));
+
 
             JSONObject formData = (JSONObject) options.get("formData");
 
             for (String key:
                     formData.keySet()) {
 
+//                String videoFileName = (String )formData.get(key) + ".mp4";
                 builder.addFormDataPart(key,(String )formData.get(key));
+//                builder.addFormDataPart(key,videoFileName);
+
+
             };
 
             MultipartBody body = builder.build();
+
+
+
 
             RequestBody requestBody = ProgressHelper.withProgress(body, new ProgressUIListener() {
 

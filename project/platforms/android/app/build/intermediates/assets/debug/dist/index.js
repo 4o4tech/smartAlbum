@@ -4411,11 +4411,11 @@ module.exports = __vue_exports__
 module.exports = {
   "item-container": {
     "width": "750",
-    "backgroundColor": "#f2f3f4"
+    "backgroundColor": "#f2f3f4",
+    "height": "960"
   },
   "temp_image": {
-    "alignItems": "center",
-    "justifyContent": "center"
+    "alignItems": "center"
   }
 }
 
@@ -4444,10 +4444,46 @@ var _videolist = __webpack_require__(290);
 
 var _videolist2 = _interopRequireDefault(_videolist);
 
+var _test = __webpack_require__(295);
+
+var _test2 = _interopRequireDefault(_test);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // import videolist from '.list.vue'
 
+
+// import config.js
+exports.default = {
+  components: {
+    WxcTabBar: _weexUi.WxcTabBar,
+    mainPage: _mainPage2.default,
+    videolist: _videolist2.default,
+    test: _test2.default
+  },
+  data: function data() {
+    return {
+      tabTitles: _config2.default.tabTitles,
+      tabStyles: _config2.default.tabStyles
+    };
+  },
+  created: function created() {
+    var tabPageHeight = _weexUi.Utils.env.getPageHeight();
+    // If the page doesn't have a navigation bar
+    // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
+    var tabStyles = this.tabStyles;
+    // this.contentStyle = { height: (tabPageHeight - tabStyles.height*0.8) + 'px' };
+
+    this.contentStyle = { height: tabPageHeight + 'px' };
+  },
+
+  methods: {
+    wxcTabBarCurrentTabSelected: function wxcTabBarCurrentTabSelected(e) {
+      var index = e.page;
+      // console.log(index);
+    }
+  }
+};
 
 //first page selectPic module
 // import selectVideo from './components/selectPic.vue'
@@ -4497,37 +4533,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
-
-exports.default = {
-  components: {
-    WxcTabBar: _weexUi.WxcTabBar,
-    mainPage: _mainPage2.default,
-    videolist: _videolist2.default
-  },
-  data: function data() {
-    return {
-      tabTitles: _config2.default.tabTitles,
-      tabStyles: _config2.default.tabStyles
-    };
-  },
-  created: function created() {
-    var tabPageHeight = _weexUi.Utils.env.getPageHeight();
-    // If the page doesn't have a navigation bar
-    // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
-    var tabStyles = this.tabStyles;
-
-    this.contentStyle = { height: tabPageHeight - tabStyles.height + 'px' };
-  },
-
-  methods: {
-    wxcTabBarCurrentTabSelected: function wxcTabBarCurrentTabSelected(e) {
-      var index = e.page;
-      // console.log(index);
-    }
-  }
-};
-
-// import config.js
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 24 */
@@ -21106,9 +21116,6 @@ var modal = weex.requireModule('modal'); //
 //
 //
 //
-//
-//
-//
 
 exports.default = {
   components: { WxcSearchbar: _weexUi.WxcSearchbar, WxcMinibar: _weexUi.WxcMinibar, selectPic: _selectPic2.default, call: _pickItem2.default },
@@ -21118,8 +21125,8 @@ exports.default = {
     };
   },
   methods: {
-    wxcSearchbarInputOnFocus: function wxcSearchbarInputOnFocus(e) {
-      this.value = e.value;
+    wxcSearchbarInputOnFocus: function wxcSearchbarInputOnFocus() {
+      // this.value = e.value;
     },
     wxcSearchbarInputOnBlur: function wxcSearchbarInputOnBlur() {},
     wxcSearchbarInputReturned: function wxcSearchbarInputReturned() {},
@@ -21436,13 +21443,16 @@ exports.default = {
       plugin.uploadFile({
         url: 'https://up.qiniup.com',
         formData: {
-          token: "hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:l81RmEyJP4B2qajyfafgkRSlLGY=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDQwODE5Mn0="
+          token: "hTRilDJKfK1pOZ23eavYuuniG0fJUjB0M0TwuYa7:i0fSeKh_PC0jST57rSwnlN_l8eo=:eyJzY29wZSI6ImZpbGUiLCJkZWFkbGluZSI6MTUyNDUyNzExMn0="
+
         },
         name: 'file',
         filePath: this.images[0]
         //          filePath:'zcfile://tmp_L3N0b3JhZ2UvZW11bGF0ZWQvMC9QaWN0dXJlU2VsZWN0b3IvQ2FtZXJhSW1hZ2UvUGljdHVyZVNl\nbGVjdG9yXzIwMTcxMjA1XzIzMDAwMC5KUEVH\n'
       }, function (successData) {
-        console.log("hehe" + successData);
+
+        console.log("hehe");
+        console.log(successData);
         modal.toast({ 'message': 'Images upload success.', 'duration': 1 });
       }, function (err) {
         console.log(err);
@@ -24446,16 +24456,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["nav_bar"]
   }, [_c('wxc-minibar', {
     attrs: {
-      "title": "标题",
+      "title": "Mian Page",
       "backgroundColor": "#009ff0",
       "textColor": "#FFFFFF",
-      "rightText": "更多"
+      "rightText": "More"
     },
     on: {
       "wxcMinibarLeftButtonClicked": _vm.minibarLeftButtonClick,
       "wxcMinibarRightButtonClicked": _vm.minibarRightButtonClick
     }
-  })], 1), _c('call'), _c('div', {
+  })], 1), _c('div', {
     staticClass: ["search_box"]
   }, [_c('wxc-searchbar', {
     ref: "wxc-searchbar",
@@ -24471,7 +24481,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["value-text"]
   }, [_vm._v(_vm._s(_vm.value))])], 1), _c('div', {
     staticClass: ["selectPic"]
-  }, [_c('selectPic')], 1), _c('call')], 1)
+  }, [_c('selectPic')], 1)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
@@ -24495,10 +24505,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["item-container"],
     style: _vm.contentStyle
   }, [_c('mainPage', [_vm._v("main page")])], 1), _c('div', {
-    staticClass: ["item-container"],
-    style: _vm.contentStyle
-  }, [_c('videolist', [_vm._v("Collection")])], 1), _c('div', {
-    staticClass: ["item-container", "temp_image"],
+    staticClass: ["item-container", "", "temp_image"],
     style: _vm.contentStyle
   }, [_c('image', {
     staticStyle: {
@@ -24508,7 +24515,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "src": "https://cdn.ruguoapp.com/3a9125717a54671a8c16680a1d6b433d?imageView2/0/w/2000/h/400/q/30"
     }
-  })])])], 1)
+  }), _c('test')], 1), _c('div', {
+    staticClass: ["item-container"],
+    style: _vm.contentStyle
+  }, [_c('videolist')], 1)])], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
@@ -24561,7 +24571,30 @@ module.exports = __vue_exports__
 /***/ (function(module, exports) {
 
 module.exports = {
+  "video_list": {
+    "marginTop": "20"
+  },
+  "refresh": {
+    "width": 750,
+    "display": "flex",
+    "MsFlexAlign": "center",
+    "WebkitAlignItems": "center",
+    "WebkitBoxAlign": "center",
+    "alignItems": "center"
+  },
+  "indicator-text": {
+    "color": "#888888",
+    "fontSize": "42",
+    "textAlign": "center"
+  },
+  "indicator": {
+    "marginTop": "16",
+    "height": "40",
+    "width": "40",
+    "color": "#0000FF"
+  },
   "panel": {
+    "display": "flex",
     "width": "725",
     "height": "960",
     "marginLeft": "10",
@@ -24580,9 +24613,15 @@ module.exports = {
     "color": "#41B883"
   },
   "video": {
+    "display": "flex",
     "marginTop": "20",
     "width": "720",
     "height": "960"
+  },
+  "div_btn": {
+    "marginTop": "60",
+    "marginBottom": 0,
+    "backgroundColor": "#0000FF"
   }
 }
 
@@ -24601,9 +24640,23 @@ var _vue = __webpack_require__(293);
 
 var _vue2 = _interopRequireDefault(_vue);
 
+var _weexUi = __webpack_require__(4);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var modal = weex.requireModule('modal'); //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -24638,36 +24691,41 @@ var modal = weex.requireModule('modal'); //
 //
 
 
+var modal = weex.requireModule('modal');
 var LOADMORE_COUNT = 2;
 var stream = weex.requireModule('stream');
 
 var longList = [{ type: 'A' }, { type: 'B' }, { type: 'B' }, { type: 'A' }, { type: 'B' }];
 
 exports.default = {
+  components: {
+    WxcButton: _weexUi.WxcButton
+  },
   data: function data() {
 
     return {
-      lists: []
+      lists: [],
+      refreshing: false
     };
   },
 
   methods: {
     fetch: function fetch(event) {
-      var _this2 = this;
+      var _this = this;
 
       modal.toast({ message: 'loadmore', duration: 1 });
 
       this.$nextTick(function () {
-        var length = _this2.lists.length;
+        var length = _this.lists.length;
         for (var i = length; i < length + LOADMORE_COUNT; ++i) {
-          _this2.lists.push(i + 1);
+          _this.lists.push(i + 1);
         }
       });
     },
     getVideo: function getVideo(url, callback) {
       return stream.fetch({
         method: 'GET',
-        type: 'jsonp',
+        type: 'json',
         url: url
       }, callback);
     },
@@ -24683,30 +24741,82 @@ exports.default = {
     onfail: function onfail(event) {
       this.state = 'onfinish';
     },
+    refresh: function refresh() {
+      var _this2 = this;
 
+      var url = 'http://api.4o4.tech/getVideo';
 
-    // 模拟ajax
-    loadUrl: function loadUrl() {
-      var _this = this;
+      return stream.fetch({
+        method: 'GET',
+        type: 'json',
+        url: url
+      }, function (res) {
+        //get ajax data from server side
+        modal.toast({ message: 'Succeesful refresh', duration: 1 });
+        // give server data to page data
+        _this2.lists = res.data;
+
+        // console.log('data:  '+ res.data)
+        //test , work
+        // console.log(this.lists);
+      });
+    },
+    onrefresh: function onrefresh(event) {
+      var _this3 = this;
+
+      modal.toast({ message: 'Refreshing', duration: 1 });
+      this.refreshing = true;
       setTimeout(function () {
-        _this.url = 'http://img-cdn.wanyouxi.com/video/20170601_mdzz_recommend_video.mp4';
-      }, 500);
+        _this3.refreshing = false;
+      }, 2000);
+    },
+    onpullingdown: function onpullingdown(event) {
+      console.log("dy: " + event.dy);
+      console.log("pullingDistance: " + event.pullingDistance);
+      console.log("viewHeight: " + event.viewHeight);
+      console.log("type: " + type);
     }
+
+    // refresh(){
+    //   let url='http://api.4o4.tech/getVideo';
+
+    //   this.getVideo(url,res =>{
+    //     //get ajax data from server side
+    //     modal.toast({message:'Succeesful get data',duration: 1});
+    //     // give server data to page data
+    //     this.lists = res.data;
+
+    //     console.log('data:  '+ res.data)
+    //     //test , work
+    //     // console.log(this.lists);
+    //   })
+    // }
+    // 模拟ajax
+    // loadUrl: function(){
+    //   var _this = this;
+    //   setTimeout(function(){
+    //      _this.url = 'http://img-cdn.wanyouxi.com/video/20170601_mdzz_recommend_video.mp4';
+    //   },500);
+    // }
+
 
   },
   created: function created() {
-    var _this3 = this;
+    var _this4 = this;
 
-    var url = 'https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=5';
+    // let url = 'https://www.douyin.com/aweme/v1/challenge/aweme/?ch_id=1554129378843650&count=5';
+
+    var url = 'http://api.4o4.tech/getVideo';
 
     this.getVideo(url, function (res) {
       //get ajax data from server side
       modal.toast({ message: 'Succeesful get data', duration: 1 });
       // give server data to page data
-      _this3.lists = res.data['aweme_list'];
+      _this4.lists = res.data;
 
+      console.log('data:  ' + res.data);
       //test , work
-      console.log(_this3.lists);
+      // console.log(this.lists);
     });
   }
 };
@@ -32007,21 +32117,256 @@ exports.default = Vue;
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('list', [_c('cell', {
-    appendAsTree: true,
+  return _c('scroller', {
+    staticClass: ["scroller"]
+  }, [_c('refresh', {
+    staticClass: ["refresh"],
     attrs: {
-      "bind:vFor": " list in lists",
-      "loadmoreoffset": "10",
-      "append": "tree"
+      "display": _vm.refreshing ? 'show' : 'hide'
     },
     on: {
-      "loadmore": _vm.fetch
+      "refresh": _vm.onrefresh,
+      "pullingdown": _vm.onpullingdown
     }
   }, [_c('text', {
-    staticClass: ["text"]
-  }, [_vm._v(_vm._s(_vm.list))]), _c('div', {
-    staticClass: ["panel"]
-  })])])
+    staticClass: ["indicator-text"]
+  }, [_vm._v("Refreshing ...")]), _c('loading-indicator', {
+    staticClass: ["indicator"]
+  })]), _c('list', {
+    staticClass: ["video_list"]
+  }, _vm._l((_vm.lists), function(list) {
+    return _c('cell', {
+      appendAsTree: true,
+      attrs: {
+        "loadmoreoffset": "10",
+        "append": "tree"
+      },
+      on: {
+        "loadmore": _vm.fetch
+      }
+    }, [_c('div', {
+      staticClass: ["panel"]
+    }, [_c('text', {
+      staticClass: ["text"]
+    }, [_vm._v(_vm._s(list.putTime))]), _c('video', {
+      staticClass: ["video"],
+      attrs: {
+        "src": 'http://p7h17fyan.bkt.clouddn.com/' + list.key,
+        "controls": ""
+      },
+      on: {
+        "start": _vm.onstart,
+        "pause": _vm.onpause,
+        "finish": _vm.onfinish,
+        "fail": _vm.onfail
+      }
+    })])])
+  }))])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ }),
+/* 295 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __vue_exports__, __vue_options__
+var __vue_styles__ = []
+
+/* styles */
+__vue_styles__.push(__webpack_require__(296)
+)
+
+/* script */
+__vue_exports__ = __webpack_require__(297)
+
+/* template */
+var __vue_template__ = __webpack_require__(298)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/Users/jimzezhang/workspace/smartAlbum/project/src/components/test.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+__vue_options__._scopeId = "data-v-07e4dd6f"
+__vue_options__.style = __vue_options__.style || {}
+__vue_styles__.forEach(function (module) {
+  for (var name in module) {
+    __vue_options__.style[name] = module[name]
+  }
+})
+if (typeof __register_static_styles__ === "function") {
+  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
+}
+
+module.exports = __vue_exports__
+
+
+/***/ }),
+/* 296 */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "panel": {
+    "width": "650",
+    "height": "250",
+    "marginLeft": "50",
+    "marginTop": "35",
+    "marginBottom": "35",
+    "flexDirection": "column",
+    "paddingTop": "15",
+    "paddingLeft": "10",
+    "paddingRight": "10",
+    "borderWidth": "2",
+    "borderStyle": "solid",
+    "borderColor": "rgb(162,217,192)",
+    "backgroundColor": "rgba(162,217,192,0.2)"
+  },
+  "text": {
+    "fontSize": "36",
+    "textAlign": "center",
+    "color": "#41B883"
+  },
+  "content": {
+    "lines": 3,
+    "fontSize": "28"
+  }
+}
+
+/***/ }),
+/* 297 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var modal = weex.requireModule('modal');
+var stream = weex.requireModule('stream');
+exports.default = {
+  data: function data() {
+    return {
+      lists: []
+
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    var url = 'http://www.jspang.com/DemoApi/newsApi.php';
+    // let url='http://127.0.0.1:5000/getVideo';
+    // http://api.4o4.tech/getVideo
+    this.getNews(url, function (res) {
+      modal.toast({ message: '请求成功', duration: 1 });
+      _this.lists = res.data;
+      console.log(res.data[0]);
+    });
+  },
+
+  methods: {
+    getNews: function getNews(url, callback) {
+      return stream.fetch({
+        method: 'GET',
+        type: 'json',
+        url: url
+      }, callback);
+    }
+  }
+};
+
+/***/ }),
+/* 298 */
+/***/ (function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('list', [_c('div', {
+    staticClass: ["temp_image"]
+  }), _vm._l((_vm.lists), function(news) {
+    return _c('cell', {
+      appendAsTree: true,
+      attrs: {
+        "append": "tree"
+      }
+    }, [_c('div', {
+      staticClass: ["panel"]
+    }, [_c('text', {
+      staticClass: ["text"]
+    }, [_vm._v(_vm._s(news.newsTitle))]), _c('text', {
+      staticClass: ["content"]
+    }, [_vm._v(_vm._s(news.newsContent))])])])
+  })], 2)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 

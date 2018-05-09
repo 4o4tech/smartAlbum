@@ -6,8 +6,9 @@ Thanks open source, github, Interent; And enjoy build great and wounderful thing
 
 ###Abstract
 
-	The aim of “smartAlbum” application will automatically classify videos and images into different collection, rely on machine learning train model to understand video content. This mobile application will give user more convenience and efficient method to manage their videos and images in mobile devices.
-	With the emergence of larger databases and more complex challenges, video understanding including the detection, tracking and pose estimation, from short video or long time security monitoring video analysis. The purpose of this project makes machine substitute manual work when people need to analyze huge quantities of data. Base on frontier research results to build a new application in daily life.
+The aim of “smartAlbum” application will automatically classify videos and images into different collection, 
+rely on machine learning train model to understand video content. This mobile application will give user more convenience and efficient method to manage their videos and images in mobile devices.
+With the emergence of larger databases and more complex challenges, video understanding including the detection, tracking and pose estimation, from short video or long time security monitoring video analysis. The purpose of this project makes machine substitute manual work when people need to analyze huge quantities of data. Base on frontier research results to build a new application in daily life.
 	
   **You can see my project report [Here](http://ate-9-10.com/final_report_ZhangJinze.pdf)**
 

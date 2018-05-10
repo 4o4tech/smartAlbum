@@ -20,7 +20,7 @@ User uplaod their video (short video only) and server will base on pre-trained m
 
 
 #### System stucture
-![picture.jpg](resources/A7B7C18347E38DF7BD8083CE0C3FEB61.jpg =882x1082)
+![picture.jpg](resources/A7B7C18347E38DF7BD8083CE0C3FEB61.jpg)
 
 
 #### machine learning source

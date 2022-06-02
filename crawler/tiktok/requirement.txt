@@ -21,7 +21,7 @@ face-recognition==1.0.0
 face-recognition-models==0.3.0
 Flask==0.12.2
 Flask-Uploads==0.2.1
-html5lib==0.9999999
+html5lib==0.99999999
 hyperlink==17.3.1
 idna==2.6
 imageio==2.1.2

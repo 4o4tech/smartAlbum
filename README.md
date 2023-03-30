@@ -16,7 +16,7 @@ With the emergence of larger databases and more complex challenges, video unders
 
 This project use machine learning trainning data and build pre-trained model base on 
  [Moments in Time](http://moments.csail.mit.edu/).
-User uplaod their video (short video only) and server will base on pre-trained model to predict content(human's behavior) in the video.
+User upload their video (short video only) and server will base on pre-trained model to predict content(human's behavior) in the video.
 
 
 #### System stucture
